@@ -3,7 +3,7 @@ title: "Forecastability"
 author: "Richard A. Maestas"
 date: "2025-05-05"
 categories: [code, analysis]
-image: "image.jpg"
+image: "image.jpeg"
 ---
 
 Coming soon

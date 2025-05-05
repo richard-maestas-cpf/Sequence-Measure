@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "Demand Planning in the Post-Pandemic New Media Age"
   navbar:

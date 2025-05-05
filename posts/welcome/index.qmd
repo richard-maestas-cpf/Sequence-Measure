@@ -1,0 +1,27 @@
+---
+title: "Welcome to my Blog"
+author: "Richard A. Maestas"
+date: "2025-04-18"
+categories: [news]
+image: "headshot.jpg"
+---
+
+Sequence & Measure will focus on all things related to Time Series Forecasting, Demand Planning, and Sales & Operations Planning.
+
+**About me:**
+
+Since 2014, I\'ve been immersed in the world of Demand Planning. My journey began at a small electronics distributor and circuit board manufacturer, where I wore many hats. As part of the Purchasing department, my primary focus was writing and scheduling purchase orders. Over time, I evolved my role into a true Demand Planner position, leading the implementation of a Sales & Operations Planning (S&OP) program---a transformative project I\'ll dive deeper into in a future post.
+
+This experience opened doors to a similar role at a larger electronics company, where I contributed to a variety of planning-related projects across multiple areas of the business. It was here that my technical skills grew rapidly, enabling me to tackle challenges in inventory optimization, product segmentation, risk assessment, and forecasting. My curiosity led me deeper into the realms of data modeling, automation, simulation, and comprehensive analysis, which further fueled my interest in technology and advanced data science techniques.
+
+At one point, I found myself torn between two worlds---the intricate demands of Data Science and the specialized focus of Demand Planning. After much reflection, I decided to refocus my career on Demand Planning, taking a hands-on approach to developing the systems and analytics that are essential not just for planning activities but for the broader S&OP process as well.
+
+This renewed perspective has sparked an insatiable drive to research complex time series forecasting techniques, test innovative ideas, and push the boundaries of what\'s possible. My mission is twofold: to contribute meaningful insights to my organization while also advancing the broader field of Demand Planning.
+
+And that\'s where this blog comes in. Here, I\'ll share my experiences, explore my opinions on literature and theory, and delve into the specifics of my current projects. My hope is to foster dialogue, gather feedback, and connect with professionals who share my passion for Demand Planning and forecasting
+
+Most importantly, I want this space to inspire others to challenge the status quo. Together, we can reimagine and reshape the future of this dynamic industry.
+
+Thank you for stopping by. Stay curious, and let\'s grow together!
+
+Richard

@@ -1,0 +1,14 @@
+{
+  "hash": "78e8c77f19245afcd80d3ab776ac7fb5",
+  "result": {
+    "markdown": "---\ntitle: \"Forecastability\"\nauthor: \"Richard A. Maestas\"\ndate: \"2025-05-05\"\ncategories: [code, analysis]\nimage: \"image.jpg\"\n---\n\n\nComing soon\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#test code output\nhead(cars)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n  speed dist\n1     4    2\n2     4   10\n3     7    4\n4     7   22\n5     8   16\n6     9   10\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

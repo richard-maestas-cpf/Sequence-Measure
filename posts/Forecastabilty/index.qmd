@@ -1,8 +1,8 @@
 ---
-title: "Forecastability"
+title: "Forecastability: Understanding Demand Patterns"
 author: "Richard A. Maestas"
 date: "2025-05-06"
-categories: [code, analysis]
+categories: [code, analysis, product families]
 image: "image.jpeg"
 ---
 

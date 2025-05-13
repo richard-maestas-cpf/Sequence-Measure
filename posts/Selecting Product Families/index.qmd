@@ -16,7 +16,7 @@ Because of these diverse perspectives, forecasts must be structured at an aggreg
 
 A well-structured forecast doesn\'t just serve individual departments---it creates a shared language that fosters engagement across the entire organization. If product families are defined in a way that resonates with all stakeholders, S&OP meetings become more productive, collaboration strengthens, and strategic decisions become more aligned. Additionally, selecting product families wisely can have a **direct impact on forecast model selection and accuracy**, ensuring demand planning methodologies generate meaningful insights.
 
-**Lessons from My First S&OP Implementation**
+## **Lessons from My First S&OP Implementation**
 
 I learned this firsthand when transitioning from a Kitting Production Manager role into my company\'s first Demand Planner position in 2015. At the time, I was mostly handling purchase order planning, but I envisioned expanding the role into something more strategic.
 

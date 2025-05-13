@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Demand Planning in the Post-Pandemic New Media Age"
+  title: "Demand Planning in the Digital-First, Post-Pandemic World"
   navbar:
     right:
       - about.qmd

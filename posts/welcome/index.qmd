@@ -6,7 +6,7 @@ categories: [news]
 image: "headshot.jpg"
 ---
 
-Sequence & Measure will focus on all things related to Time Series Forecasting, Demand Planning, and Sales & Operations Planning.
+Sequence & Measure will focus on all things related to Time Series Forecasting, Demand Planning, and Sales & Operations Planning
 
 **About me:**
 

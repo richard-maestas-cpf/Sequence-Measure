@@ -1,24 +1,9 @@
 ---
-title: "Forecastability: Understanding Demand Patterns"
+title: "Forecastability: Understanding Demand Patterns for Forecast Modeling"
 author: "Richard A. Maestas"
-date: "2025-05-06"
+date: "2025-05-12"
 categories: [code, analysis, product families]
-image: "image.jpeg"
+image: "adi_cv.png"
 ---
 
-Coming soon
-
-```{r}
-
-#test code output ---cyclical_encoding
-#https://rdrr.io/cran/lubridate/man/cyclic_encoding.html
-
-library(lubridate)
-times <- ymd_hms("2019-01-01 00:00:00") + hours(0:23)
-cyclic_encoding(times, c("day", "week", "month"))
-plot(cyclic_encoding(times, "1d"))
-plot(cyclic_encoding(times, "2d"), xlim = c(-1, 1))
-plot(cyclic_encoding(times, "4d"), xlim = c(-1, 1))
-
-
-```
+**\*Coming Soon**

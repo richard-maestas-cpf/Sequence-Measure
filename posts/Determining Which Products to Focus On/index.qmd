@@ -1,9 +1,0 @@
----
-title: "Determining Which Products to Focus On"
-author: "Richard A. Maestas"
-date: "2025-05-06"
-categories: [code, analysis, product families]
-image: "image.jpg"
----
-
-Coming soon

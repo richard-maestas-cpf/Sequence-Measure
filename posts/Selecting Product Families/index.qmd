@@ -10,7 +10,7 @@ image: "product_family.png"
 
 Product Family selection is key to the success of S&OP
 
-At its core, Sales & Operations Planning (S&OP) is a monthly business planning process powered by a forecast. That forecast serves as the connective tissue between departments---bridging Sales, Finance, Operations, and Supply Chain with a common plan. But while the forecast is central, what often goes under-appreciated is how it\'s structured. And, more specifically, the role product families play in making the forecast usable across the organization.
+At its core, Sales & Operations Planning (S&OP) is a monthly business planning process powered by a forecast. That forecast serves as the connective tissue between departments---bridging Sales, Finance, Operations, and Supply Chain with a common plan. But while the forecast is central, what often goes under-appreciated is how it's structured. And, more specifically, the role product families play in making the forecast usable across the organization.
 
 Each department views the world through its own lens:
 
@@ -26,39 +26,39 @@ Given these different vantage points, a detailed SKU-level forecast is often too
 
 ## **Why Product Family Structure Matters More Than You Think**
 
-Many organizations underestimate how powerful product family definitions can be. Aggregating at the right level is more than a data issue---it\'s a strategic decision. When done well, product families unlock clarity, foster collaboration, and ultimately improve forecast accuracy.
+Many organizations underestimate how powerful product family definitions can be. Aggregating at the right level is more than a data issue---it's a strategic decision. When done well, product families unlock clarity, foster collaboration, and ultimately improve forecast accuracy.
 
 As Dr. Chaman L. Jain notes in *Fundamentals of Demand Planning and Forecasting*:
 
-\"Concentrate on overall product families, not on SKUs: it would be difficult to accomplish much in a meeting if we start discussing SKUs\... Therefore, it is important to confine the overall discussion to overall volume and families/categories.\"
+"Concentrate on overall product families, not on SKUs: it would be difficult to accomplish much in a meeting if we start discussing SKUs\... Therefore, it is important to confine the overall discussion to overall volume and families/categories."
 
-This is echoed in Wallace and Stahl\'s *Sales & Operations Planning: The How-To Handbook*, which advises that product families should be based on market needs---typically led by Sales---and ideally kept to a manageable number (6--12). My professional experience supports both positions, but I\'ve found there\'s an additional dimension worth exploring: how the market *experiences* your products.
+This is echoed in Wallace and Stahl's *Sales & Operations Planning: The How-To Handbook*, which advises that product families should be based on market needs---typically led by Sales---and ideally kept to a manageable number (6--12). My professional experience supports both positions, but I've found there's an additional dimension worth exploring: how the market *experiences* your products.
 
-It\'s not just about how *you* group products---it\'s about how *customers* discover, discuss, and differentiate them. Structuring product families around natural buying behaviors doesn\'t just streamline internal communication. It enhances the reliability of your forecasting models by aligning them with real-world demand patterns.
+It's not just about how *you* group products---it's about how *customers* discover, discuss, and differentiate them. Structuring product families around natural buying behaviors doesn't just streamline internal communication. It enhances the reliability of your forecasting models by aligning them with real-world demand patterns.
 
 ## **When the Lightbulb Goes Off: A Tale from the Field**
 
-I learned this lesson the hard way---and then the best way. In 2015, I transitioned from managing kitting production to becoming my company\'s first Demand Planner. Initially, I was just trying to wrangle purchase orders. But I had a bigger vision for the role.
+I learned this lesson the hard way---and then the best way. In 2015, I transitioned from managing kitting production to becoming my company's first Demand Planner. Initially, I was just trying to wrangle purchase orders. But I had a bigger vision for the role.
 
 The turning point came in 2016, after attending the APICS S&OP Conference in Chicago. I returned not just with a certification, but with a mission: to design a pilot S&OP program grounded in best practices. Working with a cross-functional team from IT, Sales, and Supply Chain, we launched a simple but effective process that eventually became core to how we did business.
 
-It wasn\'t without its bumps. We iterated a lot---adjusting timelines, refining metrics, and navigating departmental turf wars. But one insight cut through all the noise.
+It wasn't without its bumps. We iterated a lot---adjusting timelines, refining metrics, and navigating departmental turf wars. But one insight cut through all the noise.
 
-\"It\'s all in the product families.\"
+"It's all in the product families."
 
 That piece of wisdom came from Joe, our IT lead and S&OP team member, who casually passed it along from a former colleague. That advice stuck with me---far more than it did with Joe, who barely remembered saying it when I reminded him years later. (We both got a good laugh out of that.)
 
 ## **A Second Act: Same Insight, Bigger Stage**
 
-Years later, I was consulting at a larger company with an established S&OP process---but something wasn\'t clicking. The product families were defined strictly for operational efficiency: High, Medium, and Low complexity based on manufacturing effort.
+Years later, I was consulting at a larger company with an established S&OP process---but something wasn't clicking. The product families were defined strictly for operational efficiency: High, Medium, and Low complexity based on manufacturing effort.
 
-While that made perfect sense to Operations, it left Sales and Finance disengaged. They couldn\'t see how the forecast connected to customer conversations or revenue strategy. Discussions were stilted. Meetings were longer than they needed to be, and alignment was superficial at best.
+While that made perfect sense to Operations, it left Sales and Finance disengaged. They couldn't see how the forecast connected to customer conversations or revenue strategy. Discussions were stilted. Meetings were longer than they needed to be, and alignment was superficial at best.
 
-That\'s when I revisited Joe\'s advice and went back to basics. I opened the company\'s own website and asked: *How does the customer see our offerings?*
+That's when I revisited Joe's advice and went back to basics. I opened the company's own website and asked: *How does the customer see our offerings?*
 
 Right there in the navigation menu were eight product categories---clean, intuitive, and exactly how the market interacted with the brand. It was hiding in plain sight.
 
-We realigned our product families based on those categories, mapped the SKUs accordingly, and proposed a refreshed forecasting framework. It wasn\'t an overnight transformation---Engineering had to reconfigure some planning logic---but the results spoke volumes:
+We realigned our product families based on those categories, mapped the SKUs accordingly, and proposed a refreshed forecasting framework. It wasn't an overnight transformation---Engineering had to reconfigure some planning logic---but the results spoke volumes:
 
 -   ✅ **Sales engagement surged**---forecasts reflected the way they sold.
 
@@ -66,25 +66,25 @@ We realigned our product families based on those categories, mapped the SKUs acc
 
 -   ✅ **Forecasting models improved**, with cleaner, more meaningful demand signals.
 
-The lesson? Don\'t let internal complexity dictate how you structure your product families. Let the market lead the way.
+The lesson? Don't let internal complexity dictate how you structure your product families. Let the market lead the way.
 
 ## **The Strategic Payoff: Clarity Today, Capability Tomorrow**
 
 Choosing the right product families does more than enable current operations. It lays the foundation for advanced forecasting techniques---like demand sensing, machine learning, and AI-based optimization.
 
-For small and mid-sized businesses, this decision is often the first critical fork in the road. Before investing in an expensive ERP system or building out a formal planning department, it\'s worth stepping back and asking: *Are our product families structured in a way that reflects how the market---and our business---actually operates?*
+For small and mid-sized businesses, this decision is often the first critical fork in the road. Before investing in an expensive ERP system or building out a formal planning department, it's worth stepping back and asking: *Are our product families structured in a way that reflects how the market---and our business---actually operates?*
 
-This is where an upfront investment in stakeholder input pays off. Surveying internal experts across departments---Sales, Finance, Operations, and Customer Service---can surface valuable perspectives on how products are discussed, bundled, and sold. But don\'t stop there. Reaching out to peers in your industry, attending professional forums, or tapping into benchmark data can help validate your assumptions and avoid blind spots.
+This is where an upfront investment in stakeholder input pays off. Surveying internal experts across departments---Sales, Finance, Operations, and Customer Service---can surface valuable perspectives on how products are discussed, bundled, and sold. But don't stop there. Reaching out to peers in your industry, attending professional forums, or tapping into benchmark data can help validate your assumptions and avoid blind spots.
 
 Why is this so important? Because in the early stages of an S&OP process, credibility is fragile.
 
-If the structure changes too frequently---or if the product families don\'t resonate with how people think about the business---the entire planning process can lose traction. Meetings lose energy. Forecasts become harder to interpret. Trust erodes. Once confidence in the forecast is lost, it can take months to rebuild.
+If the structure changes too frequently---or if the product families don't resonate with how people think about the business---the entire planning process can lose traction. Meetings lose energy. Forecasts become harder to interpret. Trust erodes. Once confidence in the forecast is lost, it can take months to rebuild.
 
 Taking the time to get it right the first time---by listening carefully to both internal and external voices---can save enormous frustration later. Well-structured product families reduce the need for constant rework, improve engagement across functions, and allow the organization to focus on what matters: planning for the future with a shared understanding of the present.
 
-Not every business has clean product hierarchies. For niche industries or custom manufacturers, this process may take more thought. But it\'s precisely in these cases where a strong product family structure brings the most value.
+Not every business has clean product hierarchies. For niche industries or custom manufacturers, this process may take more thought. But it's precisely in these cases where a strong product family structure brings the most value.
 
-In future blog posts, I\'ll dive into how product families influence:
+In future blog posts, I'll dive into how product families influence:
 
 -   ✅ Forecasting model selection
 
@@ -98,12 +98,12 @@ In future blog posts, I\'ll dive into how product families influence:
 
 S&OP thrives on alignment. And alignment starts with clarity---especially in how you define and organize your product families. The literature rightly tells us to focus on market needs and avoid SKU-level chaos. But I believe the most effective approach goes one step further: structure your product families around how *your customers* naturally engage with what you offer.
 
-It\'s not just a semantic difference---it\'s a strategic advantage.
+It's not just a semantic difference---it's a strategic advantage.
 
-Because when your product families make sense to the market, they\'ll make sense to your teams. And when everyone\'s speaking the same language, your S&OP process can truly deliver on its promise.
+Because when your product families make sense to the market, they'll make sense to your teams. And when everyone's speaking the same language, your S&OP process can truly deliver on its promise.
 
 **References:**
 
 Wallace, T., & Stahl, R. (2008). *Sales & Operations Planning: The How-To Handbook* (3rd ed.).
 
-Jain, C. L. (2017). *Fundamentals of Demand Planning and Forecasting* (3rd ed.). St. John\'s University.
+Jain, C. L. (2017). *Fundamentals of Demand Planning and Forecasting* (3rd ed.). St. John's University.

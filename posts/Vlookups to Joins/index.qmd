@@ -1,0 +1,10 @@
+---
+title: "Demand Planning Analysis with R"
+subtitle: "Data Transformation Part 1"
+author: "Richard A. Maestas"
+date: "2025-05-24"
+categories: [code, analysis]
+image: "r_joins.jpeg"
+---
+
+Translating Excel VLOOKUPS to Joins using DPLYR

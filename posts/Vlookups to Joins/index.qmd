@@ -7,4 +7,147 @@ categories: [code, analysis]
 image: "r_joins.jpeg"
 ---
 
-Translating Excel VLOOKUPS to Joins using DPLYR
+Translating Excel VLOOKUPs to Joins in R
+
+## Introduction
+
+If you're a supply chain professional or small business owner still relying heavily on Excel for demand planning, it's time to consider upgrading your toolkit. This post is part of a series exploring how R---a powerful, open-source programming language---can enhance your demand planning processes.
+
+In this installment, we focus on one of the most common Excel tasks: the **VLOOKUP**. We'll demonstrate how to replicate and improve this functionality using **joins** in R with the `dplyr` package. This approach increases efficiency, ensures data consistency, and sets the stage for more advanced analytics.
+
+## Use Case Overview: Preparing Sales Data for Analysis
+
+Using data from **Jungle Scout**, a market research platform, I collected daily sales data for various Amazon yoga products. The data can be found [here](https://drive.google.com/drive/folders/1qe89noYpCfyMHkEGM-qhWIr-WO7s9hbY?usp=drive_link). While the software allows us to export product attributes and daily sales, the data comes in separate files and lacks a shared structure.
+
+To analyze this effectively for demand planning, we need to **combine these data sets into a single table**, similar to how you'd use VLOOKUPs in Excel.
+
+## Step 1: Load the Required Libraries
+
+First, let's load the tools we'll need.
+
+```{r, warning=FALSE}
+
+library(tidyverse)
+```
+
+```{r, echo=FALSE}
+#optional
+library(broom)
+library(kableExtra)
+```
+
+> The `tidyverse` is an essential R package for data wrangling, while `broom` and `kableExtra` are optional and help with summaries and table formatting for purposes of this tutorial.
+
+## Step 2: Load and Clean the Sales Data
+
+```{r, warning=FALSE}
+
+#set file path to where the data is stores
+setwd('inputs/js_yoga')
+
+#note: the file path mirrors the path set up in the google drive
+
+#daily sales data
+daily_sales <- read.csv("compiled_daily_sales.csv", stringsAsFactors = FALSE)
+
+#product attributes data
+product_attributes <- read.csv("js_yoga_products_attributes.csv", stringsAsFactors = FALSE)
+```
+
+Let's examine the structure of the daily sales data:
+
+```{r, warning=FALSE}
+summary(daily_sales)
+```
+
+We see over 11,000 records, but duplicates are likely due to the manual file creation process. So let's remove any possible duplicate combinations of product_id and date.
+
+```{r, warning=FALSE}
+
+daily_sales <- daily_sales %>%
+  distinct(product_id, Date, .keep_all = TRUE)
+```
+
+After removing duplicates, we're left with **10,824 unique records**. Here is a snapshot of the data:
+
+```{r, warning=FALSE}
+head(daily_sales)
+```
+
+## Step 3: Load and Clean Product Attribute Data
+
+Now let's do the same thing for the products attributes data.
+
+```{r, warning=FALSE}
+#remove duplicates
+product_attributes <- product_attributes %>%
+  distinct(ASIN, .keep_all = TRUE)
+
+glance(product_attributes)
+
+```
+
+Now we have 439 unique product records with 21 attributes, including price, brand, reviews, dimensions, and more. Here is a snaphot:
+
+```{r}
+kableExtra::kable(head(product_attributes)) %>% 
+  kable_styling() %>% 
+  column_spec(2, width = "150px", extra_css = "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;")
+```
+
+## Step 4: Joining the Datasets in R
+
+In Excel, you'd likely use a VLOOKUP to merge these. In R, we use `left_join()`.
+
+> This tutorial is not meant to be a comprehensive break down of all the joins functions in R. For further exploration check out [r4ds](https://r4ds.hadley.nz/joins.html).[^1]
+
+[^1]:
+    -   R for Data Science (2e) - Wickham & Grolemund
+
+```{r, warning=FALSE}
+
+js_daily_sales <- daily_sales %>%
+  left_join(product_attributes, by = c("product_id" = "ASIN"))
+
+#note: in this case we are joining the product_id 
+#from the daily sales data with the ASIN 
+#from the product attributes data
+```
+
+This creates a **comprehensive data frame** where each sales record is enriched with relevant product attributes.
+
+```{r, warning=FALSE}
+
+#the broom:: package aids with more elegant summaries
+broom::glance(js_daily_sales)
+```
+
+Now we can start the demand planning exploratory analysis! Here are the first six records of the final data frame:
+
+```{r, warning=FALSE}
+
+#using kableExtra for better formatting fot html docs
+kableExtra::kable(head(js_daily_sales)) %>% 
+  kable_styling() %>% 
+  column_spec(c(1,7), width = "150px", extra_css = "white-space: nowrap; overflow: hidden; text-overflow: ellipsis;")
+```
+
+## Benefits of Using Joins in R Over VLOOKUPs in Excel
+
+-   **Consistency**: Code-based joins are less error-prone than manual lookups.
+
+-   **Scalability**: Handle larger datasets effortlessly.
+
+-   **Transparency**: Your transformation steps are fully documented and repeatable.
+
+-   **Flexibility**: Joins allow for more complex merge logic (e.g., multi-key joins, inner/outer joins).
+
+------------------------------------------------------------------------
+
+## Conclusion
+
+Transitioning from Excel to R for demand planning doesn't have to be daunting. In fact, using R for tasks like joining data sets can improve both the **quality and efficiency** of your analysis.
+
+By mastering tools like `left_join()` from `dplyr`, you lay the groundwork for more robust forecasting and reporting workflows.
+
+Stay tuned for the next post in this series, where we'll explore **data reshaping** techniques using `group_by` to translate another common Excel function--the **Pivot Table**.

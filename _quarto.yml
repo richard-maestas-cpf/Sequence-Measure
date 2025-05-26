@@ -18,6 +18,11 @@ format:
   html:
     theme: cosmo
     css: styles.css
-
+listing:
+  type: default
+  contents: posts
+  sort: 
+   - "pinned desc"
+   - "date desc"
 editor: visual
 

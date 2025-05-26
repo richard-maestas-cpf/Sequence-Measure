@@ -2,10 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/welcome/index.html",
       "/posts/Vlookups to Joins/index.html",
       "/posts/Forecastabilty/index.html",
-      "/posts/Selecting Product Families/index.html",
-      "/posts/welcome/index.html"
+      "/posts/Selecting Product Families/index.html"
     ]
+  },
+  {
+    "listing": "/posts/Vlookups to Joins/index.html",
+    "items": []
   }
 ]

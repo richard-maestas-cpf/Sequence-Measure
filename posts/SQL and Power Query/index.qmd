@@ -1,0 +1,92 @@
+---
+title: "The Coding Gateway Drugs: SQL and Power Query"
+date: "2025-05-27"
+author: "Richard A. Maestas"
+pinned: false
+categories: [news]
+image: "sql_pq.jpg"
+---
+
+How learning SQL and Power Query helped me break into coding, and a simple recipe to get you started
+
+In the early days of my Demand Planning career, Excel was my go-to for everything---building charts, analyzing trends, creating forecasting models, and tracking forecast accuracy. And honestly, Excel still holds its place in the Demand Planner\'s toolkit. But as technology evolves and the amount of data we work with grows, it\'s more important than ever to expand beyond the basics.
+
+For me, stepping into the world of coding didn\'t begin with Python or R. It started with two accessible, beginner-friendly tools: **SQL** and **Power Query**.
+
+### Why I Took the Plunge
+
+There were two main drivers behind my move beyond Excel:
+
+1.  **Accessing the data I needed** to build more accurate, data-driven forecasts.
+
+2.  **Automating repetitive tasks** that ate up time each month, especially during S&OP cycles.
+
+SQL gave me the power to pull the data I needed directly from databases. Power Query gave me the ability to clean and transform that data inside Excel with repeatable, automated steps.
+
+Now, I wouldn\'t classify SQL or Power Query as \"traditional coding.\" But both tools introduced me to core programming concepts---logic, syntax, functions---that prepared me to eventually learn Python and R.
+
+### Learning Without a Tech Background
+
+I didn\'t have a computer science background. Like many Demand Planners, I came from a business or operations path. Coding felt abstract and intimidating at first. But SQL gave me structure and purpose---its syntax was logical, and the output was immediately useful. Power Query, on the other hand, offered a friendly user interface where I could see the code generated behind the scenes based on my clicks.
+
+These tools demystified the world of programming for me. They gave me confidence. They showed me I *could* learn this stuff---even without a technical degree.
+
+### Why SQL and Power Query Still Matter
+
+Fast forward to today, and I still rely heavily on both. SQL remains essential for accessing and manipulating sales history and other key data sources. Power Query is a cornerstone of my reporting workflows, especially when working within Excel or building dashboards in Power BI.
+
+If you're early in your Demand Planning career and looking to grow your data skills, I **strongly recommend starting with SQL and Power Query**. Not only are they foundational, but they\'ll serve you throughout your career---whether you're cleaning data, building automated reports, or transitioning into more advanced analytics tools like Python, R, or Power BI.
+
+### Getting Started: A Simple SQL + Power Query Project
+
+Want to give it a try? Here\'s a straightforward starter project:
+
+#### 1. Get Database Access
+
+Reach out to your organization\'s database administrator and request credentials to access relevant data---sales history is a great starting point for Demand Planners.
+
+#### 2. Set Up Your SQL Environment
+
+Install a SQL editor (your admin can help recommend one). Popular options include DBeaver, SSMS, or Azure Data Studio.
+
+#### 3. Write a Simple Query
+
+Start small. Try something like:
+
+    sqlCopyEditSELECT TOP 100 * FROM sales_table_name_here
+
+This pulls the first 100 rows from your sales data table. Export your results as a CSV or open them directly in Excel.
+
+#### 4. Load Data into Power Query
+
+In Excel:
+
+-   Go to the **Data** tab
+
+-   Choose **From Table/Range** (under the Get & Transform section)
+
+#### 5. Transform the Data
+
+In the Power Query editor, try some basic transformations:
+
+-   Rename columns
+
+-   Remove unnecessary fields
+
+-   Filter by a specific product or date range
+
+Play around---it\'s hard to break anything, and you can always undo your steps.
+
+#### 6. Load the Query
+
+Click **Close & Load** to return your cleaned data to Excel. You\'ve now created a repeatable data query!
+
+------------------------------------------------------------------------
+
+### Final Thoughts
+
+This is a simple example, but it\'s a powerful gateway into the world of data automation and analysis. As you get more comfortable, you\'ll find yourself building out more complex queries, automating entire reports, and uncovering insights that set you apart as a Demand Planner.
+
+And when you're ready to take the next step---moving from Excel-based tools to R or Python---I'll be here with tutorials and walkthroughs in my **Demand Planning Analysis with R** series here on **Sequence&Measure**. In this series I will translate common data transformation tasks in Excel to simple code using R. The first post you can find [here](https://seqmeasure.com/posts/Vlookups%20to%20Joins/), translates the ever-popular VLOOKUP in Excel to Joins in R.
+
+Until then, embrace the journey. Have fun, stay curious, and happy coding!

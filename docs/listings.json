@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/welcome/index.html",
+      "/posts/SQL and Power Query/index.html",
       "/posts/Vlookups to Joins/index.html",
       "/posts/Forecastabilty/index.html",
       "/posts/Selecting Product Families/index.html"
@@ -14,6 +15,10 @@
   },
   {
     "listing": "/posts/welcome/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/SQL and Power Query/index.html",
     "items": []
   }
 ]

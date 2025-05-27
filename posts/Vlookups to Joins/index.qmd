@@ -30,7 +30,7 @@ First, let's load the tools we'll need.
 library(tidyverse)
 ```
 
-```{r, echo=FALSE}
+```{r, warning=FALSE}
 #optional
 library(broom)
 library(kableExtra)
@@ -40,7 +40,7 @@ library(kableExtra)
 
 ## Step 2: Load and Clean the Sales Data
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, message=FALSE}
 
 #set file path to where the data is stores
 setwd('inputs/js_yoga')

@@ -45,7 +45,7 @@ library(kableExtra)
 #set file path to where the data is stores
 setwd('inputs/js_yoga')
 
-#note: the file path mirrors the path set up in the google drive
+#note: the file path mirrors the file structure of the google drive
 
 #daily sales data
 daily_sales <- read.csv("compiled_daily_sales.csv", stringsAsFactors = FALSE)
@@ -150,4 +150,4 @@ Transitioning from Excel to R for demand planning doesn't have to be daunting. I
 
 By mastering tools like `left_join()` from `dplyr`, you lay the groundwork for more robust forecasting and reporting workflows.
 
-Stay tuned for the next post in this series, where we'll explore **data reshaping** techniques using `group_by` to translate another common Excel function--the **Pivot Table**.
+Stay tuned for the next post in this series, where we'll explore additional **data reshaping** and formatting techniques using `lubridate` that are common in Demand Planning analysis.

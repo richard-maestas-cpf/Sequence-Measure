@@ -1,0 +1,12 @@
+---
+title: "Demand Planning Analysis with R"
+subtitle: "Data Transformation Part 2"
+author: "Richard A. Maestas"
+date: "2025-05-28"
+categories: [code, analysis]
+image: "dplyr.jpeg"
+---
+
+\*\*\***COMING SOON --** Data formatting and manipulation in R
+
+Stay tuned for the next post in this series, where we'll explore **data reshaping** techniques using `group_by` to translate another common Excel function--the **Pivot Table**.

@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/welcome/index.html",
+      "/posts/Prophet Forecast Amazon/index.html",
       "/posts/Data Formatting for Analysis/index.html",
       "/posts/SQL and Power Query/index.html",
       "/posts/Vlookups to Joins/index.html",
@@ -24,6 +25,10 @@
   },
   {
     "listing": "/posts/Data Formatting for Analysis/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/Prophet Forecast Amazon/index.html",
     "items": []
   }
 ]

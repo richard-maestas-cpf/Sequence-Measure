@@ -1,0 +1,317 @@
+---
+title: "Picture-Perfect Forecasts: Predicting Photo Book Web Traffic with Prophet"
+author: "Richard A. Maestas"
+date: "2025-07-14"
+categories: [code, analysis, forecasting]
+image: "web_traffic.jpeg"
+---
+
+Using Holidays, sales price, and ad spend as predictors for clicks.
+
+## Summary 
+
+In this project, I built a time series forecasting model using Prophet in R to predict daily web traffic to a personalized photo book product page. While often viewed as a marketing KPI, web traffic can serve as an upstream **demand signal** with direct implications for supply chain, inventory, and revenue planning.
+
+The model incorporates key demand drivers---**product price, monthly ad spend, and seasonal holidays**---and demonstrates how external factors influence customer engagement patterns over time. By modeling these relationships explicitly, the approach improves forecast accuracy while offering business users a clear view into the levers that shape demand.
+
+This kind of signal-based forecasting supports **scenario planning in the S&OP process**, enabling teams to simulate the impact of pricing changes or shifts in media budget before they happen. It also lays the groundwork for forecasting downstream metrics like conversion rates, order volumes, and fulfillment needs---making it especially valuable in omnichannel or direct-to-consumer environments where agility and alignment are critical.
+
+### Objective
+
+-   Build a daily web traffic forecast using Prophet in R to establish a reliable upstream signal of customer interest and demand potential.
+
+-   Quantify the impact of promotional timing, ad spend, pricing, and holidays on web traffic patterns to enhance forecast accuracy.
+
+-   Enable scenario-based forecasting by layering in forward-looking marketing assumptions---helping ensure alignment, visibility, and documentation during the demand review and forecast consensus stages of the S&OP process.
+
+```{r, include=FALSE, warning=FALSE}
+# Load libraries
+library(tidyverse)
+library(lubridate)
+library(prophet)
+library(broom)
+library(scales)
+#library(gt)
+library(kableExtra)
+library(knitr)
+library(cowplot)
+#library(webshot2)
+library(grid)
+#library(png)
+library(glue)
+#library(htmltools)
+
+# Import Data
+#setwd('inputs')
+web_traffic <- read.csv("photo_books_web_traffic.csv", stringsAsFactors = FALSE)
+```
+
+**The following shows a preview of the data along with a visual of the complete web traffic trend over time:**
+
+```{r, echo=FALSE}
+# PDF optimized data table
+t1 <- web_traffic_table <- head(web_traffic, 4) %>%
+  mutate(
+    date = format(as.Date(date), "%Y-%m-%d"),
+    price = round(price, 2),
+    ad_spend = round(ad_spend, 2)
+  ) %>%
+  rename(
+    Date = date,
+    Price = price,
+    `Ad Spend` = ad_spend,
+    Clicks = clicks,
+    Holiday = holiday
+  ) %>%
+  kable(
+    format = "html",
+    booktabs = TRUE,
+    caption = "Photo Book - Daily Web Traffic (Sample)",
+    align = "lrrrrr"
+  ) %>%
+  kable_styling(latex_options = c("striped", "hold_position"))
+
+# Plot web traffic with Holidays
+# Format date column
+web_traffic$date <- as_date(web_traffic$date)
+# Define likely holiday shopping dates (actual holiday or day before)
+holiday_dates <- as_date(c(
+  "2023-12-25", "2023-02-14",
+  "2024-12-25", "2024-02-14",
+  "2023-05-14", "2024-05-14"
+))
+# Plot
+p1 <- ggplot(web_traffic, aes(date, clicks)) +
+  geom_line(color = 'light blue') +
+  geom_point(data = filter(web_traffic, date %in% holiday_dates),
+             aes(date, clicks), color = 'steel blue', size = 1.5) +
+  labs(
+    title = "Personalized Photo Book",
+    subtitle = "Daily Web Traffic",
+    x = "",
+    y = "Clicks",
+    caption = "Blue dots indicate key Holidays (Christmas, Valentine's & Mother's Day)"
+  ) + 
+  theme_minimal()
+# Print table
+t1
+```
+
+```{r, echo=FALSE}
+p1
+```
+
+### **Isolating Key Drivers of Web Traffic**
+
+To better understand what influences web traffic, I began by evaluating each business driver---**holidays**, **price**, and **ad spend**---on its own. By testing each variable independently in a simple regression, we gain early insights into how strongly each factor correlates with customer engagement.
+
+The visualizations below highlight the directional relationship and signal strength of each driver, helping us identify which levers are most predictive of traffic patterns before layering them into a more advanced forecasting model.
+
+```{r, echo=FALSE, message=FALSE}
+# Create a long-format version of the predictors
+predictors <- web_traffic %>%
+  select(clicks, holiday, price, ad_spend) %>%
+  pivot_longer(cols = c(holiday, price, ad_spend),
+               names_to = "predictor",
+               values_to = "value")
+
+# Compute R-squared for each individual regression
+r2_df <- predictors %>%
+  group_by(predictor) %>%
+  summarise(
+    r2 = summary(lm(clicks ~ value))$r.squared,
+    .groups = 'drop'
+  )
+
+# Merge R² values back into the long dataframe
+predictors <- left_join(predictors, r2_df, by = "predictor")
+
+# Create the plot
+ggplot(predictors, aes(x = value, y = clicks)) +
+  geom_point(alpha = 0.3, color = "steelblue") +
+  geom_smooth(method = "lm", se = FALSE, color = "darkred") +
+  facet_wrap(~ predictor, scales = "free_x") +
+  geom_text(
+    aes(label = glue("R² = {round(r2, 3)}")),
+    x = -Inf, y = Inf,
+    hjust = -0.1, vjust = 1.2,
+    size = 4,
+    inherit.aes = FALSE,
+    data = r2_df
+  ) +
+  labs(
+    title = "Relationship Between Clicks and Each Predictor",
+    subtitle = "Simple Linear Regression: Clicks ~ Predictor",
+    x = "Predictor Value",
+    y = "Clicks"
+  ) +
+  theme_minimal()
+```
+
+**Key Insights from Individual Regressions:**
+
+-   **Ad Spend** shows a strong, consistent relationship with web traffic. As investment increases, so do daily clicks---confirming that marketing spend is a reliable driver of customer engagement.
+
+-   **Holidays**, while showing a modest R² value statistically, appear to **double average daily clicks** in practice. This suggests that holiday-driven spikes are sharp but infrequent---highlighting the value of targeted seasonal campaigns.
+
+-   **Price** shows **little direct impact** on daily web traffic, indicating that click behavior is likely more sensitive to promotional messaging or marketing exposure than to pricing alone.
+
+### **Building a Baseline Forecast**
+
+With a clearer understanding of the individual drivers of web traffic, the next step is to build a baseline forecast model using Prophet. This model leverages historical trends and seasonality to predict future daily clicks without any external inputs. It serves as a starting point to evaluate how much predictive power comes from the data\'s natural patterns alone---before layering in business drivers like holidays, price, or ad spend.
+
+::: {.callout-note appearance="simple"}
+**Prophet** is an open-source library developed by Facebook for forecasting time series data. It's available in both R and Python. More info can be found [here](https://facebook.github.io/prophet/).
+:::
+
+```{r, include=FALSE}
+df_basic <- web_traffic[, c("date", "clicks")]
+colnames(df_basic) <- c("ds", "y")
+
+# Fit basic model
+m1 <- prophet(df_basic) 
+
+# Define prediction horizon and forecast
+future1 <- make_future_dataframe(m1, periods = 90)  #next 90 days
+forecast1 <- predict(m1, future1)
+```
+
+```{r, echo=FALSE}
+plot(m1, forecast1) + 
+  ggtitle("Prophet Forecast Model - Baseline") +
+  labs(
+    x = " ",
+    y = " ",
+    caption = "80% prediction interval") +
+  theme(plot.caption = element_text(face = "italic")) +
+  theme_minimal()
+```
+
+**The baseline forecast offers a solid foundation,** accurately capturing long-term trends and seasonal dips---like the annual decline in January traffic. However, it fails to account for sharp, event-driven spikes around holidays. As a result, the model underpredicts key moments like the expected lift on Valentine\'s Day 2025, underscoring the need to include external drivers such as holidays to improve short-term accuracy.
+
+### **Enhancing the Forecast with Holidays and Ad Spend**
+
+To improve the model\'s accuracy, the next step is to incorporate **holiday events** and **monthly ad spend**---two factors that have shown strong influence on web traffic. By adding these as external predictors, the model can better capture promotional spikes and the lift generated by marketing investment, resulting in a more realistic and actionable forecast.
+
+```{r, include=FALSE}
+# step 1: create holiday dataframe
+#add future holidays to holiday_dates
+holiday_dates <- as_date(c(
+  "2023-12-25", "2023-02-14",
+  "2024-12-25", "2024-02-14",
+  "2023-05-14", "2024-05-14",
+  "2025-02-14", "2025-05-11",
+  "2025-12-25"
+))
+
+holiday_df <- data.frame(
+  ds = holiday_dates,
+  holiday = rep("holiday_spike", length(holiday_dates))
+)
+
+
+# Step 2: Prepare base + future ad spend data
+df_ad_spend <- web_traffic[, c("date", "clicks", "ad_spend")]
+colnames(df_ad_spend) <- c("ds", "y", "ad_spend")
+
+# Step 3: Create future ad_spend estimates 
+future_ad_spend <- data.frame(
+  ds = seq(from = max(df_ad_spend$ds) + 1, by = "day", length.out = 90),
+  ad_spend = c(rep(5, 31), rep(9, 28), rep(6, 31))  # adjust logic as needed
+)
+# Get historical ad_spend from df_ad_spend
+historical_ad_spend <- df_ad_spend[, c("ds", "ad_spend")]
+
+# Combine both (ensures we preserve full history)
+ad_spend_full <- bind_rows(historical_ad_spend, future_ad_spend)
+
+# Step 4: Join future ad_spend to full future dataframe
+future2 <- left_join(future1, ad_spend_full, by = "ds")
+
+# Step 5: Create Prophet model and declare regressor
+m2 <- prophet(
+  holidays = holiday_df)
+m2 <- add_regressor(m2, name = "ad_spend")
+
+# Step 6: Fit model using only the historical data (not including future)
+m2 <- fit.prophet(m2, df_ad_spend)
+
+# Step 7: 
+forecast2 <- predict(m2, future2)
+```
+
+```{r, forecast-plot, echo=FALSE}
+plot(m1, forecast2) + 
+  ggtitle("Prophet Forecast Model - Holidays & Ad Spend") +
+  labs(
+    x = " ",
+    y = " ",
+    caption = "80% prediction interval") +
+  theme(plot.caption = element_text(face = "italic")) +
+  theme_minimal()
+```
+
+This updated model demonstrates a meaningful improvement over the baseline. It successfully captures sharp spikes in traffic around key holidays---most notably the projected increase for Valentine\'s Day---and more accurately reflects patterns influenced by consistent monthly ad spend. By incorporating both seasonal events and marketing investment, the model produces a forecast that better aligns with real-world demand drivers and provides more actionable insight for planning.
+
+### **Evaluating Forecast Accuracy**
+
+While the visual forecasts provide helpful context, it\'s difficult to assess which model performs better by sight alone. To compare models objectively, we\'ll use **cross-validation**---a statistical technique that evaluates forecast accuracy by testing each model\'s performance on historical data.
+
+::: {.callout-note appearance="simple"}
+**Cross-validation** is a technique to evaluate how well a model can predict future values by using historical data. It helps determine if a model will generalize well to new, unseen data, which is essential for making accurate forecasts. With respect to time series forecasting, cross-validation preserves the chronological order of observations. 
+:::
+
+```{r, include=FALSE}
+# Define cross-validation parameters
+initial_period <- 365  # days of training
+horizon <- 90          # forecast horizon
+period <- 30           # frequency of CV
+
+# Function to evaluate a model and label it
+evaluate_model <- function(model, model_name) {
+  df_cv <- cross_validation(model, initial = initial_period, period = period, horizon = horizon, units = "days")
+  df_perf <- performance_metrics(df_cv, metrics = c("mae", "rmse", "mape"))
+  df_perf <- df_perf %>% 
+    mutate(model = model_name) %>% 
+    group_by(model) %>%
+    summarize(across(c(mae, rmse, mape), mean, na.rm = TRUE))
+  return(df_perf)
+}
+
+# Run cross-validation for each model
+results <- list(
+  evaluate_model(m1, "Baseline Prophet"),
+  evaluate_model(m2, "Holidays & Ad Spend")
+)
+
+# Combine into single summary table
+cv_summary <- bind_rows(results) %>%
+  mutate(
+    mape = paste0(round(mape * 100, 2), "%"),         # Convert to percent and round
+    across(where(is.numeric), ~ round(.x, 3))  # Round all numeric columns (mae, rmse, etc.)
+  )
+```
+
+```{r, echo=FALSE}
+t2 <- cv_summary %>%
+  rename(Model = model, MAE = mae, RMSE = rmse, MAPE = mape) %>%
+  kable(
+    format = "html",
+    booktabs = TRUE,
+    digits = 3,
+    caption = "Forecast Model Performance Comparison"
+  )
+t2
+```
+
+Incorporating holidays and ad spend into the forecast model significantly improved accuracy. The enhanced model reduced the **mean absolute error (MAE) by \~22%**, the **root mean squared error (RMSE) by \~30%**, and the **mean absolute percentage error (MAPE) from 10.68% to 8.39%** compared to the baseline. This highlights the strong predictive value of aligning forecasts with seasonal events and marketing investment.
+
+### Conclusion
+
+This project demonstrates how integrating marketing inputs into forecast models can improve accuracy and unlock strategic planning value. By identifying which levers---like ad spend, pricing, and holidays---most influence traffic, the model provides actionable insights to support budgeting, campaign timing, and performance optimization. Just as importantly, forecasting web traffic offers a forward-looking view of customer engagement, serving as a foundation for downstream KPIs like conversion, AOV, and revenue.
+
+Expanding on that foundation, this approach reframes web traffic not only as a marketing KPI but as an **upstream demand signal**---a measurable indicator of intent that can be modeled and layered into the Demand Plan. By building a flexible, driver-based forecasting model in Prophet that accommodates both historical behavior and **forward-looking marketing assumptions**, demand planners can better align the forecast with business strategy. Price changes, promotional spikes, and shifts in advertising budget can be translated into quantified traffic expectations and rolled forward into volume forecasts.
+
+This becomes especially valuable during the **Demand Review** stage of the S&OP process. Instead of debating assumptions in isolation, cross-functional teams can evaluate modeled scenarios side by side---anchoring forecast conversations in transparent, data-backed inputs. The result is stronger consensus, clearer accountability, and a more robust audit trail linking strategic levers to expected demand outcomes.
+
+Ultimately, this project showcases how upstream marketing metrics---when forecasted thoughtfully---can reinforce downstream planning decisions. It lays the groundwork for a **layered forecasting process** that connects digital engagement to demand signals, and allows demand signals to permeate throughout S&OP. When done right, this approach transforms the forecast from a static output into a dynamic, assumption-driven tool that accelerates collaboration and improves business agility. You don't just forecast demand---you picture it perfectly.

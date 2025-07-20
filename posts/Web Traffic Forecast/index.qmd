@@ -6,7 +6,7 @@ categories: [code, analysis, forecasting]
 image: "web_traffic.jpeg"
 ---
 
-Using Holidays, sales price, and ad spend as predictors for clicks.
+Using holidays, sales price, and ad spend as predictors for clicks
 
 ## Summary 
 

@@ -1,5 +1,6 @@
 ---
-title: "Picture-Perfect Forecasts: Predicting Photo Book Web Traffic with Prophet"
+title: "Picture-Perfect Forecasts"
+subtitle: "Predicting Photo Book Web Traffic with Prophet"
 author: "Richard A. Maestas"
 date: "2025-07-20"
 categories: [code, analysis, forecasting]

@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Sequence&Measure",
     "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\nJul 14, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\nProphet Forecasting in R\n\n\n\n\ncode\n\n\nanalysis\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\nJun 14, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\nData Transformation Part 2\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 27, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\nData Transformation Part 1\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 24, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nproduct families\n\n\n\n\n\n\n\n\n\n\n\nMay 12, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nS&OP\n\n\nproduct families\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\nNo matching items"
+    "text": "news\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\nProphet Forecasting in R\n\n\n\n\ncode\n\n\nanalysis\n\n\nforecasting\n\n\n\n\n\n\n\n\n\n\n\nJun 14, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\nData Transformation Part 2\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 27, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\nData Transformation Part 1\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 24, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nproduct families\n\n\n\n\n\n\n\n\n\n\n\nMay 12, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nS&OP\n\n\nproduct families\n\n\n\n\n\n\n\n\n\n\n\nMay 6, 2025\n\n\nRichard A. Maestas\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -249,7 +249,7 @@
     "href": "posts/Web Traffic Forecast/index.html",
     "title": "Picture-Perfect Forecasts: Predicting Photo Book Web Traffic with Prophet",
     "section": "",
-    "text": "Using Holidays, sales price, and ad spend as predictors for clicks."
+    "text": "Using holidays, sales price, and ad spend as predictors for clicks"
   },
   {
     "objectID": "posts/Web Traffic Forecast/index.html#objective",

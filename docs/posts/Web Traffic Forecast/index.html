@@ -190,11 +190,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Using holidays, sales price, and ad spend as predictors for clicks</p>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>In this project, I built a time series forecasting model using Prophet in R to predict daily web traffic to a personalized photo book product page. While often viewed as a marketing KPI, web traffic can serve as an upstream <strong>demand signal</strong> with direct implications for supply chain, inventory, and revenue planning.</p>
-<p>The model incorporates key demand drivers—<strong>product price, monthly ad spend, and seasonal holidays</strong>—and demonstrates how external factors influence customer engagement patterns over time. By modeling these relationships explicitly, the approach improves forecast accuracy while offering business users a clear view into the levers that shape demand.</p>
-<p>This kind of signal-based forecasting supports <strong>scenario planning in the S&amp;OP process</strong>, enabling teams to simulate the impact of pricing changes or shifts in media budget before they happen. It also lays the groundwork for forecasting downstream metrics like conversion rates, order volumes, and fulfillment needs—making it especially valuable in omnichannel or direct-to-consumer environments where agility and alignment are critical.</p>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>In this demonstration, I applied Prophet in R to build a time series forecasting model that predicts daily web traffic to a personalized photo book product page. While commonly treated as a marketing metric, web traffic can serve as a powerful upstream demand signal—with meaningful implications for inventory, revenue, and operational planning.</p>
+<p>By incorporating key drivers such as product pricing, monthly ad spend, and seasonal holidays, the model illustrates how external factors shape customer engagement over time. This transparent approach improves forecast accuracy and equips business users with clear insights into the levers that influence demand.</p>
+<p>Signal-based forecasting like this enhances scenario planning in the S&amp;OP process. It enables teams to evaluate "what-if" scenarios—such as changes in media spend or price points—before committing resources. The framework also paves the way for forecasting downstream metrics like conversion rates, order volumes, and fulfillment needs, which are especially critical in direct-to-consumer and omnichannel environments where agility and cross-functional alignment are essential.</p>
+</section>
 <section id="objective" class="level3">
 <h3 class="anchored" data-anchor-id="objective">Objective</h3>
 <ul>
@@ -258,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="isolating-key-drivers-of-web-traffic" class="level3">
-<h3 class="anchored" data-anchor-id="isolating-key-drivers-of-web-traffic"><strong>Isolating Key Drivers of Web Traffic</strong></h3>
+<h3 class="anchored" data-anchor-id="isolating-key-drivers-of-web-traffic">Isolating Key Drivers of Web Traffic</h3>
 <p>To better understand what influences web traffic, I began by evaluating each business driver—<strong>holidays</strong>, <strong>price</strong>, and <strong>ad spend</strong>—on its own. By testing each variable independently in a simple regression, we gain early insights into how strongly each factor correlates with customer engagement.</p>
 <p>The visualizations below highlight the directional relationship and signal strength of each driver, helping us identify which levers are most predictive of traffic patterns before layering them into a more advanced forecasting model.</p>
 <div class="cell">
@@ -266,15 +267,10 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p><strong>Key Insights from Individual Regressions:</strong></p>
-<ul>
-<li><p><strong>Ad Spend</strong> shows a strong, consistent relationship with web traffic. As investment increases, so do daily clicks—confirming that marketing spend is a reliable driver of customer engagement.</p></li>
-<li><p><strong>Holidays</strong>, while showing a modest R² value statistically, appear to <strong>double average daily clicks</strong> in practice. This suggests that holiday-driven spikes are sharp but infrequent—highlighting the value of targeted seasonal campaigns.</p></li>
-<li><p><strong>Price</strong> shows <strong>little direct impact</strong> on daily web traffic, indicating that click behavior is likely more sensitive to promotional messaging or marketing exposure than to pricing alone.</p></li>
-</ul>
+<p><strong>The regression results revealed some useful insights</strong> into what drives daily web traffic. <strong>Ad spend</strong> had a clear, consistent impact on engagement—more investment led to more clicks, reaffirming marketing spend as a dependable traffic lever. While <strong>holidays</strong> showed only moderate statistical significance, they nearly doubled average daily visits during peak periods. That sharp but infrequent surge highlights the value of well-timed seasonal campaigns. In contrast, <strong>price</strong> didn't show much direct influence on click behavior, suggesting that visitors are more responsive to promotional messaging and visibility than to pricing alone.</p>
 </section>
 <section id="building-a-baseline-forecast" class="level3">
-<h3 class="anchored" data-anchor-id="building-a-baseline-forecast"><strong>Building a Baseline Forecast</strong></h3>
+<h3 class="anchored" data-anchor-id="building-a-baseline-forecast">Building a Baseline Forecast</h3>
 <p>With a clearer understanding of the individual drivers of web traffic, the next step is to build a baseline forecast model using Prophet. This model leverages historical trends and seasonality to predict future daily clicks without any external inputs. It serves as a starting point to evaluate how much predictive power comes from the data's natural patterns alone—before layering in business drivers like holidays, price, or ad spend.</p>
 <div class="callout-note callout callout-style-simple">
 <div class="callout-body d-flex">
@@ -294,17 +290,17 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>The baseline forecast offers a solid foundation,</strong> accurately capturing long-term trends and seasonal dips—like the annual decline in January traffic. However, it fails to account for sharp, event-driven spikes around holidays. As a result, the model underpredicts key moments like the expected lift on Valentine's Day 2025, underscoring the need to include external drivers such as holidays to improve short-term accuracy.</p>
 </section>
 <section id="enhancing-the-forecast-with-holidays-and-ad-spend" class="level3">
-<h3 class="anchored" data-anchor-id="enhancing-the-forecast-with-holidays-and-ad-spend"><strong>Enhancing the Forecast with Holidays and Ad Spend</strong></h3>
+<h3 class="anchored" data-anchor-id="enhancing-the-forecast-with-holidays-and-ad-spend">Enhancing the Forecast with Holidays and Ad Spend</h3>
 <p>To improve the model's accuracy, the next step is to incorporate <strong>holiday events</strong> and <strong>monthly ad spend</strong>—two factors that have shown strong influence on web traffic. By adding these as external predictors, the model can better capture promotional spikes and the lift generated by marketing investment, resulting in a more realistic and actionable forecast.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="index_files/figure-html/forecast-plot-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>This updated model demonstrates a meaningful improvement over the baseline. It successfully captures sharp spikes in traffic around key holidays—most notably the projected increase for Valentine's Day—and more accurately reflects patterns influenced by consistent monthly ad spend. By incorporating both seasonal events and marketing investment, the model produces a forecast that better aligns with real-world demand drivers and provides more actionable insight for planning.</p>
+<p><strong>This updated model demonstrates a meaningful improvement</strong> over the baseline. It successfully captures sharp spikes in traffic around key holidays—most notably the projected increase for Valentine's Day—and more accurately reflects patterns influenced by consistent monthly ad spend. By incorporating both seasonal events and marketing investment, the model produces a forecast that better aligns with real-world demand drivers and provides more actionable insight for planning.</p>
 </section>
 <section id="evaluating-forecast-accuracy" class="level3">
-<h3 class="anchored" data-anchor-id="evaluating-forecast-accuracy"><strong>Evaluating Forecast Accuracy</strong></h3>
+<h3 class="anchored" data-anchor-id="evaluating-forecast-accuracy">Evaluating Forecast Accuracy</h3>
 <p>While the visual forecasts provide helpful context, it's difficult to assess which model performs better by sight alone. To compare models objectively, we'll use <strong>cross-validation</strong>—a statistical technique that evaluates forecast accuracy by testing each model's performance on historical data.</p>
 <div class="callout-note callout callout-style-simple">
 <div class="callout-body d-flex">
@@ -319,14 +315,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 
-<table>
+<table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>Forecast Model Performance Comparison</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Model </th>
    <th style="text-align:right;"> MAE </th>
    <th style="text-align:right;"> RMSE </th>
-   <th style="text-align:left;"> MAPE </th>
+   <th style="text-align:right;"> MAPE </th>
   </tr>
  </thead>
 <tbody>
@@ -334,31 +330,29 @@ ul.task-list li input[type="checkbox"] {
    <td style="text-align:left;"> Baseline Prophet </td>
    <td style="text-align:right;"> 105.269 </td>
    <td style="text-align:right;"> 154.150 </td>
-   <td style="text-align:left;"> 10.68% </td>
+   <td style="text-align:right;"> 10.68% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Holidays &amp; Ad Spend </td>
    <td style="text-align:right;"> 82.836 </td>
    <td style="text-align:right;"> 107.618 </td>
-   <td style="text-align:left;"> 8.39% </td>
+   <td style="text-align:right;"> 8.39% </td>
   </tr>
 </tbody>
 </table>
 
 </div>
 </div>
-<p>Incorporating holidays and ad spend into the forecast model significantly improved accuracy. The enhanced model reduced the <strong>mean absolute error (MAE) by ~22%</strong>, the <strong>root mean squared error (RMSE) by ~30%</strong>, and the <strong>mean absolute percentage error (MAPE) from 10.68% to 8.39%</strong> compared to the baseline. This highlights the strong predictive value of aligning forecasts with seasonal events and marketing investment.</p>
+<p><strong>Incorporating holidays and ad spend</strong> into the forecast model significantly improved accuracy. The enhanced model reduced the <strong>mean absolute error (MAE) by ~22%</strong>, the <strong>root mean squared error (RMSE) by ~30%</strong>, and the <strong>mean absolute percentage error (MAPE) from 10.68% to 8.39%</strong> compared to the baseline. This highlights the strong predictive value of aligning forecasts with seasonal events and marketing investment.</p>
 </section>
 <section id="conclusion" class="level3">
 <h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
-<p>This project demonstrates how integrating marketing inputs into forecast models can improve accuracy and unlock strategic planning value. By identifying which levers—like ad spend, pricing, and holidays—most influence traffic, the model provides actionable insights to support budgeting, campaign timing, and performance optimization. Just as importantly, forecasting web traffic offers a forward-looking view of customer engagement, serving as a foundation for downstream KPIs like conversion, AOV, and revenue.</p>
-<p>Expanding on that foundation, this approach reframes web traffic not only as a marketing KPI but as an <strong>upstream demand signal</strong>—a measurable indicator of intent that can be modeled and layered into the Demand Plan. By building a flexible, driver-based forecasting model in Prophet that accommodates both historical behavior and <strong>forward-looking marketing assumptions</strong>, demand planners can better align the forecast with business strategy. Price changes, promotional spikes, and shifts in advertising budget can be translated into quantified traffic expectations and rolled forward into volume forecasts.</p>
-<p>This becomes especially valuable during the <strong>Demand Review</strong> stage of the S&amp;OP process. Instead of debating assumptions in isolation, cross-functional teams can evaluate modeled scenarios side by side—anchoring forecast conversations in transparent, data-backed inputs. The result is stronger consensus, clearer accountability, and a more robust audit trail linking strategic levers to expected demand outcomes.</p>
-<p>Ultimately, this project showcases how upstream marketing metrics—when forecasted thoughtfully—can reinforce downstream planning decisions. It lays the groundwork for a <strong>layered forecasting process</strong> that connects digital engagement to demand signals, and allows demand signals to permeate throughout S&amp;OP. When done right, this approach transforms the forecast from a static output into a dynamic, assumption-driven tool that accelerates collaboration and improves business agility. You don’t just forecast demand—you picture it perfectly.</p>
+<p>This demonstration highlights how incorporating marketing inputs into time series forecasting—like ad spend, pricing, and seasonal holidays—can sharpen demand signal accuracy and unlock broader strategic value. Forecasting web traffic isn't just about measuring digital engagement; it's about uncovering intent. When modeled thoughtfully, traffic becomes an upstream demand signal—one that connects marketing strategy directly to operational planning.</p>
+<p>By using a flexible, driver-based framework in Prophet, demand planners can transform historical behavior and forward-looking assumptions into actionable forecasts. Campaign shifts, price adjustments, and media budget changes are no longer vague variables—they're quantifiable inputs that shape demand expectations and guide planning decisions. In the context of S&amp;OP, this translates into more meaningful Demand Review conversations, where modeled scenarios bring cross-functional teams onto the same page with data-backed clarity.</p>
+<p>Ultimately, this approach reframes the forecast not as a static report, but as a dynamic planning tool—one that links top-of-funnel engagement to downstream KPIs like conversions, order volume, and fulfillment needs. It strengthens collaboration, speeds up alignment, and gives businesses the agility to respond, adapt, and scale. The result? A forecast that doesn’t just project demand—it narrates the story behind it.</p>
 
 
 
-</section>
 </section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">

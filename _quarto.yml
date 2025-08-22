@@ -16,6 +16,9 @@ website:
         href: https://twitter.com/RichardMaeCPF
       - icon: medium
         href: https://medium.com/@richardanthonymaestas
+  page-footer:
+    center: |
+      © 2025 Richard A. Maestas, CPF
 format:
   html:
     theme: cosmo

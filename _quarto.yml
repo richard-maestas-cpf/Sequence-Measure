@@ -6,6 +6,8 @@ website:
   navbar:
     right:
       - about.qmd
+      - icon: envelope
+        href: mailto:richardanthonymaestas@gmail.com
       - icon: linkedin
         href: https://linkedin.com/in/richard-maestas-cpf
       - icon: github

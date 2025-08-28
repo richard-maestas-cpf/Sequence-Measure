@@ -3,7 +3,7 @@ project:
   output-dir: docs
 website:
   title: "Demand Planning in the Digital-First, Post-Pandemic World"
-  google-analytics: "G-W8YMZFWFHV"
+  google-analytics: "G-DBN6ZZWDNL"
   navbar:
     right:
       - about.qmd

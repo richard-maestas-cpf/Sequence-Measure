@@ -1,0 +1,1277 @@
+Territory,Product Line,Customer,24-Nov,24-Dec,25-Jan,25-Feb,25-Mar,25-Apr,25-May,25-Jun,25-Jul,25-Aug,25-Sep,25-Oct
+West,Gas Mowers,Walk-In Customer,369,59,68,956,32,81,2987,4,-2944,101,103,2112
+East,Seed Spreaders,House Store,216,62,108,109,134,202,132,108,-10,0,0,0
+West,Garden Statues,Walk-In Customer,1,0,0,0,25,2,0,1,-1,0,0,0
+West,Seed Spreaders,YardMart,147,75,101,80,92,88,89,39,-1,0,0,0
+East,Seedling Starter Trays,Select Seeds,0,0,2,1,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,AK Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,AL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,AR Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,AZ Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Bed Bath Beyond,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Bessemer City,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Bramption  Canada,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,British Columbia,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Broomfield Mfg,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Buehler Motor Inc,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,CA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,CO Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,CT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Century Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Clear Blue,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,ComfortGrow,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Conversion Data Placekeeper Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Core US,0,0,1,0,7,0,0,0,0,0,0,0
+East,Raised Bed Kits,Cumberland Fabrication,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Custom Brands Group,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Custom Shutter Division,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,DE Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Eclipse Shutter,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,FL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,FLEXTRONICS INTERNATIONAL,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Flexo Fabrication,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,GA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Great Lakes,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Asia Other,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Australia,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Japan,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Korea,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Latin America,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer Middle East,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,HI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Horizontal Blinds Division,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,IA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,ID Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,ILM,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,IN Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Johnson Electric,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,KS Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,KY Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,LA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MD Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,ME Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MN Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MO Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MS Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,MT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Mid-Atlantic,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NC Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,ND Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NE Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NH Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NJ Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NM Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NV Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,NY Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,New York,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,North American Affiliates Other,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Northeast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Northern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Northwest,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,OH Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,OK Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,OR Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Ontario,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Owensboro Mfg,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,PA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Parts Whse Salt Lake City,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Prairies,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Premier Manufacturing,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Quebec.Maritimes,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,RI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Rockies,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,SC Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,SD Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,SMK Manufacturing,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Sacramento,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Salt Lake City Fabrication,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Shade-O-Garden,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Spade & Trowel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Southeast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Southern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Southwest,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,TN Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,TX Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Tupelo Mfg,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Turnils,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,UT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,VA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,VT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Vista,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WFD Discontinuation Forecast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WFD Launch Forecast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WFD Shade Build Forecast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WV Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WY Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Whitesville R&D,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Core US,0,2,0,1,3,8,7,0,0,0,0,0
+East,Seedling Starter Trays,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seedling Starter Trays,Undefined,0,0,0,0,0,0,0,0,0,0,1,0
+East,Mulch Bags,All Other US,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Core US,204,105,43,63,26,33,41,0,0,0,0,0
+East,Mulch Bags,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Other Reseller,1,0,0,0,0,0,1,0,0,0,0,0
+East,Mulch Bags,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Supplies,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Compost Bins,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Compost Bins,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Compost Bins,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Compost Bins,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Compost Bins,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Compost Bins,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,All Other CA,2,1,11,0,1,1,1,0,0,0,0,0
+East,Garden Fencing,Canada Dealers,1,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Woles,3,1,8,0,6,1,1,0,0,0,0,0
+East,Garden Fencing,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Rona CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Home Hardware CA,0,0,0,0,4,0,1,0,0,0,2,4
+East,Cedar Planter Boxes,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Rona CA,0,0,1,0,0,3,0,0,0,0,0,0
+East,Cedar Planter Boxes,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Cedar Planter Boxes,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Canada Dealers,3,0,2,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Core CA,0,2,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Core US,31,30,19,41,39,22,37,0,0,0,0,0
+East,Seed Spreaders,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Other Reseller,0,0,0,0,2,0,0,0,0,0,0,0
+East,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Statues,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Home Hardware CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Kent CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Woles,0,0,1,0,0,0,0,0,0,0,0,2
+East,Hedge Trimmers,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Stepping Stones,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Stepping Stones,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Stepping Stones,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Canada Dealers,0,1,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Core US,20,20,9,18,15,16,16,0,0,0,0,0
+East,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Other Reseller,0,0,0,0,4,0,0,0,0,0,0,0
+East,Hedge Trimmers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Hedge Trimmers,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Core US,8,3,0,0,1,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Kent CA,0,7,0,0,0,8,5,0,0,0,5,2
+East,Drip Irrigation Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Rona CA,1,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Drip Irrigation Kits,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Kent CA,0,0,0,0,0,0,0,0,0,7,23,9
+East,Raised Bed Kits,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Raised Bed Kits,Rona CA,0,0,0,0,0,0,0,0,0,0,1,3
+East,Mulch Bags,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Mulch Bags,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Bramption  Canada,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Century Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,ComfortGrow,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Core US,21,53,16,82,58,46,52,0,0,0,0,0
+East,Gas Mowers,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Eclipse Shutter,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Great Lakes,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Central,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,East,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,West,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Mid-Atlantic,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,New York,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,North American Affiliates Other,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Northeast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Northern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Northwest,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Other Reseller,0,0,0,0,0,0,0,0,0,0,10,0
+East,Gas Mowers,Prairies,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Rockies,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Shade-O-Garden,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Spade & Trowel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Southeast,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Southern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Southwest,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Turnils,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Gas Mowers,Vista,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Metal Wheelbarrows,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Kent CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Rona CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,All Other US,0,0,0,0,0,0,1,0,0,0,0,0
+East,Seed Spreaders,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,Seed Spreaders,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Rona CA,0,0,0,0,0,1,0,0,0,0,1,0
+East,PVC Greenhouses,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,PVC Greenhouses,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+East,Patio Sun Shades,All Other CA,0,0,0,0,1,0,0,0,0,0,0,0
+East,Patio Sun Shades,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Patio Sun Shades,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+East,Patio Sun Shades,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+East,Wood Garden Edging,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+East,Wood Garden Edging,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,All Other US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Blinds Chalet,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,GardenGalore,0,1,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,GardenGalore,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,All Other US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Blinds Chalet,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,GardenGalore,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,All Other US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Blinds Chalet,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,GardenGalore,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,AK Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,AL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,AR Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,AZ Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Bed Bath Beyond,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Bessemer City,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Gardenster,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Bramption  Canada,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,British Columbia,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Broomfield Mfg,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Buehler Motor Inc,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,CA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,CO Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,CT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Century Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Clear Blue,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,ComfortGrow,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Conversion Data Placekeeper Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Core CA,7,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Cumberland Fabrication,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Custom Brands Group,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Custom Shutter Division,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,DE Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Eclipse Shutter,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,FL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,FLEXTRONICS INTERNATIONAL,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Flexo Fabrication,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,GA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Great Lakes,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Asia Other,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Australia,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Japan,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Korea,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Latin America,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer Middle East,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,HI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Horizontal Blinds Division,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,IA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,ID Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,ILM,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,IN Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Johnson Electric,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,KS Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,KY Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,LA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Woles,-2,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MD Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,ME Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MN Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MO Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MS Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,MT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Mid-Atlantic,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NC Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,ND Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NE Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NH Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NJ Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NM Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NV Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,NY Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,New York,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,North American Affiliates Other,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Northeast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Northern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Northwest,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,OH Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,OK Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,OR Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Ontario,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Owensboro Mfg,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,PA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Parts Whse Salt Lake City,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Prairies,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Premier Manufacturing,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Quebec.Maritimes,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,RI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Rockies,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,SC Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,SD Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,SMK Manufacturing,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Sacramento,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Salt Lake City Fabrication,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Select Seeds,1,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Shade-O-Garden,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Spade & Trowel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Southeast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Southern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Southwest,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,House Store,1,1,0,0,1,1,0,0,0,0,0,0
+West,Raised Bed Kits,TN Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,TX Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Tupelo Mfg,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Turnils,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,UT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,VA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,VT Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Vista,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WA Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WFD Discontinuation Forecast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WFD Launch Forecast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WFD Shade Build Forecast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WI Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WV Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WY Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Yardfair,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Whitesville R&D,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Gardenster,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Core CA,7,0,0,0,0,6,0,0,0,0,0,0
+West,Seedling Starter Trays,Core US,9,0,3,3,1,0,4,0,0,0,0,0
+West,Seedling Starter Trays,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Habitat for Humanity,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Military,0,4,0,0,6,0,4,0,0,0,0,0
+West,Seedling Starter Trays,Other Reseller,0,0,0,2,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,Select Seeds,0,2,-2,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,House Store,0,0,0,0,0,0,0,0,0,0,3,3
+West,Seedling Starter Trays,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seedling Starter Trays,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Core CA,38,0,0,0,0,1,3,0,0,0,0,0
+West,Mulch Bags,Core US,16,14,46,22,3,22,15,0,0,0,0,0
+West,Mulch Bags,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Retailer NA,0,0,0,0,0,0,0,0,0,0,1,0
+West,Mulch Bags,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Other Reseller,7,0,3,0,0,0,0,0,0,0,1,0
+West,Mulch Bags,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,0,0,5
+West,Mulch Bags,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,US Dealers,0,0,3,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,All Other US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,GardenGalore,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Custom Brands Group,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Habitat for Humanity,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Turnils,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Supplies,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Core CA,0,0,0,0,0,23,0,0,0,0,0,0
+West,Compost Bins,Core US,14,9,27,5,0,9,18,0,0,0,0,0
+West,Compost Bins,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,2
+West,Compost Bins,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Military,1,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Compost Bins,House Store,0,0,0,0,0,0,0,0,0,1,0,0
+West,Compost Bins,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Online Channel,1,1,1,1,4,5,4,0,0,0,0,0
+West,Garden Fencing,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,YardMart,5,1,6,0,1,2,2,0,0,0,0,0
+West,Garden Fencing,Walk-In Customer,-1,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Undefined,1,0,0,0,0,0,2,0,0,0,0,0
+West,Cedar Planter Boxes,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Core CA,0,0,0,0,0,0,2,0,0,0,0,0
+West,Cedar Planter Boxes,Core US,7,4,5,0,0,0,9,0,0,1,0,0
+West,Cedar Planter Boxes,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Retailer NA,0,0,0,0,0,0,0,0,0,0,1,0
+West,Cedar Planter Boxes,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,House Store,0,0,0,0,0,0,0,0,0,5,0,0
+West,Cedar Planter Boxes,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,Undefined,0,0,6,0,0,0,0,0,0,0,0,0
+West,Cedar Planter Boxes,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Gardenster,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Core CA,0,10,0,0,0,6,0,0,0,0,0,0
+West,Seed Spreaders,Core US,22,18,8,13,35,17,11,0,0,0,0,0
+West,Seed Spreaders,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Walk-In Customer,4,86,4,75,6,-2,1,0,0,0,0,0
+West,Seed Spreaders,Other Reseller,0,0,0,0,0,2,0,0,0,0,0,0
+West,Seed Spreaders,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Undefined,4,0,3,21,22,15,29,0,0,0,0,0
+West,Seed Spreaders,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Core CA,0,0,0,0,0,2,0,0,0,0,0,0
+West,Garden Statues,Core US,11,1,10,0,0,0,1,0,0,0,0,0
+West,Garden Statues,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,2
+West,Garden Statues,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Statues,Undefined,0,0,0,0,0,0,8,0,0,0,0,0
+West,Hedge Trimmers,GardenGalore,0,1,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,YardMart,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,Stepping Stones,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Core CA,0,0,0,0,0,1,2,0,0,0,0,0
+West,Hedge Trimmers,Core US,54,13,6,17,4,7,18,0,0,0,0,0
+West,Hedge Trimmers,Custom Brands Group,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,House Store,0,0,0,0,0,0,0,0,0,0,1,0
+West,Hedge Trimmers,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Core US,1,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Select Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,House Store,0,0,0,0,0,0,0,0,0,0,2,1
+West,Drip Irrigation Kits,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Drip Irrigation Kits,Undefined,0,4,0,13,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Core CA,0,0,0,0,0,4,15,0,0,0,0,0
+West,Raised Bed Kits,Core US,0,1,0,0,0,2,3,0,0,0,0,0
+West,Raised Bed Kits,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,32
+West,Raised Bed Kits,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Raised Bed Kits,House Store,0,0,0,0,0,0,0,0,0,0,0,4
+West,Raised Bed Kits,Undefined,0,0,10,2,0,5,2,0,0,0,0,0
+West,Raised Bed Kits,Yardfair,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Core US,60,82,105,76,73,93,39,0,0,0,0,0
+West,Mulch Bags,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,Military,0,0,0,0,11,0,0,0,0,0,0,0
+West,Mulch Bags,Other Reseller,0,0,0,0,0,0,0,0,0,27,0,0
+West,Mulch Bags,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Mulch Bags,House Store,0,0,0,0,0,0,0,0,0,9,0,5
+West,Mulch Bags,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,All Other CA,0,0,0,0,0,0,0,0,0,0,0,1
+West,Gas Mowers,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Bramption  Canada,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Canada Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Century Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,ComfortGrow,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Conversion Data Placekeeper Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Core CA,3,1,0,0,0,0,4,0,0,0,0,0
+West,Gas Mowers,Core US,199,134,151,134,243,210,155,0,0,0,0,0
+West,Gas Mowers,Dorn,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Eclipse Shutter,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Great Lakes,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Central,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,East,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,West,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Habitat for Humanity,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Mid-Atlantic,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,New York,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,North American Affiliates Other,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Northeast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Northern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Northwest,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Other Reseller,0,0,0,0,0,3,2,0,0,0,0,0
+West,Gas Mowers,Prairies,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Rockies,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Select Seeds,0,0,0,0,1,0,0,0,0,0,0,0
+West,Gas Mowers,Shade-O-Garden,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Spade & Trowel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Southeast,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Southern Plains,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Southwest,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,House Store,0,0,0,0,0,0,0,0,0,0,0,3
+West,Gas Mowers,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Turnils,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Vista,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Gas Mowers,Yardfair,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Core CA,2,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Core US,35,24,12,24,24,21,21,0,0,1,0,0
+West,Metal Wheelbarrows,Custom Brands Group,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Habitat for Humanity,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Manufacturer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Other Reseller,11,0,0,1,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,House Store,0,0,0,0,0,0,0,0,0,12,0,27
+West,Metal Wheelbarrows,Timber Blinds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,Turnils,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Metal Wheelbarrows,WallMarket,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,All Other US,0,0,0,0,0,0,4,0,0,2,3,5
+West,Garden Fencing,GardenGalore,0,0,0,0,0,0,0,0,0,0,1,0
+West,Garden Fencing,Gardenster,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Retailer NA,0,0,0,0,0,0,3,0,0,0,0,0
+West,Garden Fencing,Military,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Garden Fencing,Yardfair,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Core CA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Core US,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Military,0,0,0,0,0,0,0,0,0,0,1,0
+West,Seed Spreaders,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Seed Spreaders,House Store,0,0,0,0,0,0,0,0,0,0,0,13
+West,Seed Spreaders,Yardfair,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Gardenster,22,20,19,15,8,1,0,0,0,0,0,0
+West,Hedge Trimmers,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Hedge Trimmers,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Walk-In Customer,0,0,0,0,0,0,30,0,0,0,0,45
+West,PVC Greenhouses,Other Intercompany,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,House Store,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,PVC Greenhouses,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,All Other US,1,0,5,32,1,2,1,0,0,0,19,8
+West,Patio Sun Shades,Gardenster,0,0,0,0,0,0,0,0,0,6,9,5
+West,Patio Sun Shades,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,Core US,22,8,8,20,8,0,8,0,0,0,0,0
+West,Patio Sun Shades,Retailer NA,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,Walk-In Customer,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Patio Sun Shades,Undefined,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,Landscape Design,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,JC Penny,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,Other Reseller,0,0,0,0,0,0,0,0,0,0,0,0
+West,Wood Garden Edging,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Seeds Online,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Budget Seeds,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Retailer Europe,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Garden Accounts,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,IL Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Online Channel,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Woles,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,Walk-In Customer,0,0,0,0,0,0,0,0,0,1,836,0
+West,Woven Garden Baskets,Samples,0,0,0,0,0,0,0,0,0,0,0,0
+West,Woven Garden Baskets,US Dealers,0,0,0,0,0,0,0,0,0,0,0,0
+East,Garden Fencing,Kent CA,0,1,0,0,0,0,0,1,0,0,0,0
+East,Cedar Planter Boxes,Kent CA,0,0,0,0,0,0,0,1,0,0,1,0
+East,Hedge Trimmers,Rona CA,0,0,0,0,0,0,0,1,0,0,0,0
+East,Drip Irrigation Kits,Home Hardware CA,23,0,1,4,2,0,0,1,0,9,2,1
+East,Mulch Bags,Kent CA,0,0,72,0,0,2,0,1,0,4,1,0
+West,Seedling Starter Trays,Walk-In Customer,50,0,0,0,1,0,0,1,0,0,0,50
+West,Mulch Bags,Yardfair,1,3,4,1,2,0,0,1,0,0,1,4
+West,Hedge Trimmers,Walk-In Customer,0,0,0,0,2,0,0,1,0,0,0,0
+West,Hedge Trimmers,Military,0,1,0,0,2,1,0,1,0,2,0,1
+West,Hedge Trimmers,Walk-In Customer,0,0,0,0,2,0,0,1,0,2,8,0
+West,Gas Mowers,Military,0,15,0,0,3,4,6,1,0,0,3,0
+West,Wood Garden Edging,All Other US,0,0,0,0,0,0,0,1,0,0,2,0
+West,Woven Garden Baskets,All Other US,0,0,0,12,0,0,0,1,0,0,0,0
+East,Mulch Bags,Core CA,0,0,0,0,0,0,0,2,0,0,0,0
+East,Garden Fencing,Home Hardware CA,2,1,0,1,1,3,0,2,0,0,0,0
+West,Hedge Trimmers,Undefined,1,2,7,2,4,3,1,2,0,0,0,0
+East,Garden Fencing,House Store,4,1,7,6,3,3,3,3,0,0,0,0
+West,Mulch Bags,Undefined,0,0,0,8,18,0,6,3,0,5,0,0
+West,Garden Fencing,JC Penny,1,0,1,1,2,0,1,3,0,0,0,0
+West,Metal Wheelbarrows,Undefined,0,0,5,11,2,10,3,3,0,4,21,0
+East,Raised Bed Kits,Kent CA,7,2,0,12,0,9,5,4,0,0,0,0
+East,Gas Mowers,Canada Dealers,0,0,0,6,0,0,0,4,0,0,0,0
+West,Seedling Starter Trays,Undefined,0,0,3,1,2,2,9,4,0,0,0,0
+West,Garden Fencing,House Store,9,12,4,5,13,10,7,4,0,0,0,0
+West,Drip Irrigation Kits,Online Channel,1,1,3,3,7,6,15,4,0,11,9,18
+West,Gas Mowers,Retailer NA,0,0,0,0,0,0,0,4,0,0,2,0
+West,Compost Bins,Undefined,3,0,0,0,0,1,3,5,0,1,0,0
+West,Gas Mowers,Undefined,8,3,3,34,2,29,9,5,0,23,5,0
+East,Mulch Bags,Canada Dealers,0,0,0,2,0,0,0,8,0,0,0,0
+West,Metal Wheelbarrows,Military,0,0,0,5,0,2,0,8,0,0,2,1
+West,Garden Fencing,Woles,22,45,12,21,18,22,33,9,0,0,0,0
+West,Garden Fencing,Seeds Online,95,62,67,60,55,49,54,10,0,0,0,0
+East,Raised Bed Kits,Rona CA,19,2,4,0,0,3,0,12,0,0,0,0
+West,Garden Fencing,House Store,11,24,39,33,18,35,38,13,0,0,0,0
+West,Seed Spreaders,Yardfair,14,34,17,11,15,28,8,13,0,0,0,0
+East,Seed Spreaders,Kent CA,11,16,15,11,38,58,22,15,0,0,0,0
+West,Mulch Bags,Undefined,3,1,18,2,35,0,20,15,0,0,2,0
+West,Garden Fencing,Woles,92,149,56,55,50,32,58,16,0,0,0,0
+West,Garden Fencing,Walk-In Customer,0,0,0,0,0,0,0,16,0,70,0,0
+East,Raised Bed Kits,3D Interior CA,48,15,14,20,23,21,11,17,0,0,0,0
+East,Mulch Bags,Rona CA,2,0,0,19,3,10,6,18,0,4,2,19
+East,Raised Bed Kits,Woles,46,8,382,74,69,8,24,21,0,0,0,0
+West,PVC Greenhouses,Blinds Chalet,1,0,4,3,11,9,6,22,0,10,0,1
+West,Seed Spreaders,Online Channel,35,33,12,46,101,107,119,23,0,0,0,0
+East,Raised Bed Kits,House Store,22,17,18,7,24,26,34,24,0,0,0,0
+East,Raised Bed Kits,Home Hardware CA,13,0,33,30,6,13,2,28,0,0,0,0
+West,Mulch Bags,Walk-In Customer,75,0,1,0,53,25,0,32,0,1,25,2516
+East,Seed Spreaders,Woles,50,20,425,75,92,41,88,36,0,0,0,0
+West,Seed Spreaders,JC Penny,94,57,125,85,94,49,99,61,0,1,0,0
+West,Seed Spreaders,House Store,386,596,787,542,720,540,807,283,0,0,0,0
+West,Seed Spreaders,House Store,1220,1467,2080,1820,1453,1537,1729,580,0,0,0,0
+East,Hedge Trimmers,House Store,0,0,0,0,0,0,0,0,1,0,2,0
+East,Garden Fencing,Home Hardware CA,0,0,0,0,0,0,0,0,1,0,0,0
+East,Garden Fencing,Woles,0,0,0,0,0,0,0,0,1,1,1,8
+West,Raised Bed Kits,Seeds Online,9,2,1,0,3,0,4,0,1,0,0,0
+West,Seedling Starter Trays,Yardfair,0,0,0,0,0,0,0,0,1,0,0,0
+West,Garden Fencing,Select Seeds,0,0,0,0,3,1,0,0,1,4,12,5
+East,Garden Fencing,3D Interior CA,5,4,3,2,2,8,1,1,1,0,0,0
+East,PVC Greenhouses,Kent CA,2,0,1,0,0,0,0,1,1,0,0,0
+West,Seedling Starter Trays,GardenGalore,14,9,2,1,0,1,4,1,1,1,2,0
+West,Mulch Bags,Walk-In Customer,0,2,51,0,0,4,2,1,1,0,3,50
+West,Hedge Trimmers,Online Channel,0,0,0,0,1,1,0,1,1,5,4,2
+West,Garden Fencing,All Other US,0,0,1,1,2,3,3,2,1,2,1,0
+East,Hedge Trimmers,Rona CA,1,2,6,0,4,192,3,3,1,0,3,6
+West,Hedge Trimmers,House Store,1,1,8,3,2,1,1,3,1,8,2,3
+East,Cedar Planter Boxes,Woles,7,0,43,0,6,1,2,4,1,2,2,14
+West,Seed Spreaders,GardenGalore,43,50,52,6,35,18,18,6,1,0,0,0
+East,Hedge Trimmers,Kent CA,5,25,1,8,17,4,4,0,2,8,1,5
+East,Garden Fencing,3D Interior CA,0,0,0,0,0,0,0,0,2,4,2,5
+West,Mulch Bags,Military,0,0,2,0,0,10,0,0,2,16,2,8
+West,Gas Mowers,Blinds Chalet,6,0,4,1,10,2,3,0,2,0,3,2
+West,Compost Bins,Walk-In Customer,2,13,3,0,2,2,0,1,2,1,0,0
+West,Metal Wheelbarrows,Walk-In Customer,25,0,1,90,0,1,50,1,2,16,0,71
+West,Garden Fencing,YardMart,0,0,0,0,0,0,0,1,2,1,1,4
+East,Seedling Starter Trays,Home Hardware CA,0,17,15,7,16,10,4,2,2,14,15,0
+West,Compost Bins,GardenGalore,13,7,5,0,4,5,13,5,2,6,4,1
+West,Garden Fencing,JC Penny,0,0,0,0,0,0,0,6,2,0,2,0
+East,Seed Spreaders,Rona CA,11,10,2,12,2,10,17,8,2,0,0,0
+East,Seedling Starter Trays,Kent CA,4,1,4,1,0,9,2,0,3,0,9,0
+West,Hedge Trimmers,YardMart,1,0,1,0,0,1,0,0,3,6,2,4
+West,Garden Fencing,Online Channel,0,0,0,0,0,0,0,0,3,1,5,4
+East,Seedling Starter Trays,Rona CA,3,0,2,0,0,0,2,3,3,0,0,1
+East,PVC Greenhouses,Select Seeds,23,21,16,10,4,11,6,10,3,4,11,9
+West,Seed Spreaders,Woles,1226,1539,792,1418,1805,1859,2020,522,3,-3,0,0
+East,Garden Fencing,House Store,0,0,0,0,0,0,0,0,4,8,4,3
+East,Seed Spreaders,Rona CA,0,0,0,0,0,0,0,0,4,5,4,14
+West,Hedge Trimmers,JC Penny,1,3,2,5,7,0,2,3,4,7,0,4
+West,Wood Garden Edging,Blinds Chalet,1,7,8,1,1,4,0,3,4,0,0,19
+West,Hedge Trimmers,Online Channel,7,1,0,8,10,5,8,5,4,4,3,2
+East,Cedar Planter Boxes,All Other CA,4,2,27,1,2,3,7,6,4,5,6,4
+West,Metal Wheelbarrows,GardenGalore,33,21,35,19,14,13,5,13,4,6,8,3
+East,Seed Spreaders,Home Hardware CA,37,43,42,61,70,87,55,22,4,0,0,0
+East,Mulch Bags,Kent CA,10,5,12,13,18,4,8,2,5,4,29,6
+West,Raised Bed Kits,Online Channel,4,4,0,4,0,33,18,4,5,3,9,22
+East,Seedling Starter Trays,Woles,6,3,104,29,13,1,3,11,5,6,21,54
+West,Seed Spreaders,Woles,5346,6157,2880,3245,3112,3083,3857,744,5,0,0,0
+East,PVC Greenhouses,Home Hardware CA,2,0,1,1,1,0,3,0,6,9,6,9
+West,Seed Spreaders,Undefined,0,0,0,0,5,0,0,0,6,0,1,0
+West,Garden Fencing,House Store,0,0,0,0,0,0,0,1,6,13,18,15
+West,Patio Sun Shades,Blinds Chalet,5,7,4,14,1,0,1,6,6,0,1,0
+West,Seed Spreaders,Seeds Online,1318,1158,1081,1212,1289,522,947,138,6,1,1,0
+West,Mulch Bags,Blinds Chalet,32,31,3,5,11,8,29,11,7,6,0,0
+West,Drip Irrigation Kits,YardMart,28,6,49,12,2,22,9,13,7,9,5,17
+East,Drip Irrigation Kits,House Store,14,8,6,7,17,19,29,16,7,17,0,2
+West,Garden Statues,Gardenster,29,21,36,26,31,34,18,22,7,15,9,41
+East,Seed Spreaders,3D Interior CA,112,95,59,58,111,111,111,45,7,7,5,0
+East,Hedge Trimmers,All Other CA,6,2,11,2,1,2,2,0,8,6,0,0
+East,Hedge Trimmers,Home Hardware CA,3,2,6,9,9,15,9,7,8,13,4,7
+West,Garden Statues,Online Channel,7,8,3,17,20,12,10,13,8,13,12,40
+West,Garden Statues,YardMart,33,18,12,19,8,12,38,8,9,40,19,24
+West,Hedge Trimmers,All Other US,8,13,17,5,6,7,9,14,9,7,9,10
+East,Mulch Bags,Home Hardware CA,36,6,16,45,36,42,26,22,9,68,26,13
+East,Hedge Trimmers,3D Interior CA,10,6,5,10,10,4,9,4,10,8,8,8
+East,Drip Irrigation Kits,Woles,3,0,89,0,7,8,0,5,10,8,24,63
+West,Patio Sun Shades,Online Channel,0,0,0,0,0,0,0,6,10,5,0,5
+East,Seedling Starter Trays,House Store,30,15,23,28,11,11,15,11,11,19,33,9
+East,Hedge Trimmers,Woles,17,4,109,17,22,4,36,13,11,4,21,44
+West,Seed Spreaders,Select Seeds,345,299,236,302,269,235,324,62,11,6,0,0
+East,Mulch Bags,All Other CA,8,6,25,12,8,8,31,6,12,15,9,8
+West,Drip Irrigation Kits,Gardenster,24,9,21,11,0,5,0,3,13,4,4,2
+West,Garden Statues,GardenGalore,2,8,25,29,33,27,7,12,13,7,7,8
+West,Hedge Trimmers,GardenGalore,32,51,18,30,36,24,19,24,13,35,7,17
+West,Compost Bins,Gardenster,9,12,21,12,13,33,34,32,13,29,34,21
+West,Cedar Planter Boxes,GardenGalore,11,15,6,8,4,2,7,11,14,2,33,22
+West,Raised Bed Kits,Gardenster,9,27,19,2,10,2,3,14,14,35,15,7
+West,Hedge Trimmers,House Store,12,6,17,12,12,33,14,15,14,19,10,12
+East,Gas Mowers,Rona CA,12,4,5,21,14,2,4,7,15,5,0,18
+West,Metal Wheelbarrows,Online Channel,40,30,24,54,103,78,91,29,15,56,80,52
+West,Woven Garden Baskets,Online Channel,5,16,17,7,8,9,0,0,16,13,7,4
+West,Compost Bins,JC Penny,33,13,16,33,15,31,27,18,16,21,11,27
+West,Garden Statues,JC Penny,26,20,16,21,37,23,24,31,16,22,12,41
+West,Mulch Bags,WallMarket,30,19,12,12,21,20,10,20,17,12,5,20
+West,Garden Fencing,GardenGalore,1,5,1,2,3,1,0,1,18,0,-18,0
+East,Gas Mowers,Kent CA,2,36,12,29,1,43,15,22,18,13,36,15
+West,Hedge Trimmers,Seeds Online,30,33,11,31,22,27,33,17,19,16,36,21
+East,Seed Spreaders,Kent CA,67,1,3,0,2,107,2,1,20,19,70,14
+East,Mulch Bags,Woles,1,1,2,2,9,2,5,5,20,0,0,0
+West,Compost Bins,Online Channel,7,5,7,11,15,28,29,8,20,16,16,31
+West,Wood Garden Edging,Online Channel,18,34,76,69,30,44,28,21,20,24,38,24
+East,Raised Bed Kits,Home Hardware CA,0,0,0,0,0,0,0,0,21,17,37,19
+West,PVC Greenhouses,All Other US,11,7,15,12,15,11,14,10,21,18,9,22
+East,Raised Bed Kits,All Other CA,18,25,29,35,28,27,15,15,21,0,0,0
+West,Seed Spreaders,Blinds Chalet,15,46,31,50,28,9,19,18,21,3,16,22
+West,Seed Spreaders,Retailer NA,0,0,0,0,0,26,33,-3,22,0,-16,20
+East,Seed Spreaders,All Other CA,57,20,53,15,38,8,31,24,22,1,3,0
+West,Patio Sun Shades,Woles,0,5,42,36,33,38,26,66,22,33,65,61
+West,Raised Bed Kits,Select Seeds,76,27,38,75,46,28,59,81,22,29,17,11
+West,Cedar Planter Boxes,Walk-In Customer,51,0,0,0,0,0,4,1,24,2,0,0
+West,Hedge Trimmers,Online Channel,15,8,22,26,50,60,41,55,24,46,34,64
+East,Hedge Trimmers,All Other CA,5,4,15,1,4,3,8,12,25,20,16,81
+East,Cedar Planter Boxes,House Store,51,19,19,27,27,39,14,16,25,11,52,42
+West,Drip Irrigation Kits,JC Penny,31,11,11,35,28,28,37,22,25,19,33,8
+West,Mulch Bags,Gardenster,20,37,55,42,36,24,28,11,27,79,53,48
+East,Drip Irrigation Kits,3D Interior CA,62,42,23,25,21,41,17,30,27,55,29,61
+West,PVC Greenhouses,House Store,27,21,19,35,41,19,28,11,29,14,12,39
+West,Patio Sun Shades,GardenGalore,27,30,20,16,4,16,37,22,29,12,23,30
+East,Drip Irrigation Kits,All Other CA,11,7,30,9,6,5,14,6,30,10,11,22
+West,Hedge Trimmers,Woles,6,12,5,12,16,12,15,19,30,13,31,32
+East,Garden Fencing,All Other CA,0,0,0,30,0,0,0,29,30,36,4,7
+East,Seedling Starter Trays,All Other CA,40,8,28,14,16,26,22,37,30,32,32,31
+East,Raised Bed Kits,Woles,0,0,0,0,0,0,0,2,31,12,128,372
+East,PVC Greenhouses,All Other CA,6,9,29,1,1,2,5,2,33,3,4,1
+West,Seed Spreaders,Online Channel,0,0,0,0,0,0,0,27,34,115,167,138
+West,Mulch Bags,Habitat for Humanity,0,0,52,2821,1328,1272,753,104,34,205,0,0
+West,Cedar Planter Boxes,Online Channel,31,7,8,63,40,67,58,32,37,26,61,104
+West,Garden Fencing,Seeds Online,0,0,0,0,0,0,0,18,40,42,52,46
+West,Hedge Trimmers,All Other US,17,11,16,52,15,14,12,11,41,14,23,21
+West,Hedge Trimmers,YardMart,104,46,20,59,44,27,46,43,41,41,43,59
+East,Mulch Bags,Woles,58,12,676,49,101,69,88,55,41,29,147,270
+West,PVC Greenhouses,House Store,28,33,45,32,57,67,48,30,42,48,28,47
+East,PVC Greenhouses,Woles,29,40,38,7,20,23,29,17,45,8,3,32
+West,Garden Fencing,Woles,0,0,0,0,0,0,0,29,45,27,28,42
+West,Drip Irrigation Kits,Walk-In Customer,100,0,23,275,41,48,0,1,46,2,180,205
+East,Raised Bed Kits,House Store,0,0,0,0,0,0,0,3,46,87,131,83
+West,Mulch Bags,GardenGalore,22,32,22,18,25,29,8,39,47,67,24,58
+West,Seedling Starter Trays,YardMart,101,63,95,45,48,64,75,47,48,26,48,72
+East,Cedar Planter Boxes,3D Interior CA,19,14,5,19,36,17,14,17,49,16,24,38
+East,Raised Bed Kits,3D Interior CA,0,0,0,0,0,0,0,0,50,69,145,296
+West,Metal Wheelbarrows,YardMart,22,18,49,35,25,19,14,11,50,27,34,90
+West,Raised Bed Kits,Walk-In Customer,329,54,1415,245,100,3,115,26,50,51,518,867
+East,Seedling Starter Trays,3D Interior CA,22,33,46,40,45,28,24,30,50,13,25,36
+West,Garden Statues,All Other US,84,39,87,99,67,73,63,74,53,46,93,84
+East,Raised Bed Kits,All Other CA,0,0,0,30,0,0,25,32,54,56,45,48
+West,Mulch Bags,Online Channel,40,19,32,46,62,63,85,56,54,43,44,84
+East,Gas Mowers,Home Hardware CA,29,34,12,50,84,103,87,72,54,51,46,29
+West,Hedge Trimmers,Woles,92,102,31,36,56,19,50,63,55,33,41,19
+West,Garden Fencing,House Store,0,0,0,0,0,0,0,51,56,57,59,88
+West,Raised Bed Kits,JC Penny,90,37,76,76,77,80,127,73,56,69,49,85
+West,Seedling Starter Trays,Select Seeds,145,73,103,77,56,99,82,57,57,19,2,2
+West,Patio Sun Shades,Woles,68,33,127,95,59,71,31,65,57,95,77,79
+West,Cedar Planter Boxes,Gardenster,58,67,32,36,41,42,62,72,57,54,52,74
+East,Seed Spreaders,3D Interior CA,37,4,15,26,33,14,21,37,59,268,624,660
+West,Cedar Planter Boxes,YardMart,56,42,33,51,58,34,54,52,59,24,50,40
+West,Metal Wheelbarrows,JC Penny,55,47,86,25,32,29,126,59,60,20,34,42
+West,Garden Statues,Select Seeds,128,94,109,141,120,212,94,67,63,27,98,58
+West,Cedar Planter Boxes,All Other US,52,35,39,39,89,71,78,63,70,33,78,32
+West,Hedge Trimmers,JC Penny,106,62,46,68,79,75,81,48,72,60,23,54
+West,Mulch Bags,JC Penny,126,63,106,93,62,111,81,58,73,83,55,93
+West,Raised Bed Kits,All Other US,201,134,139,134,129,148,140,100,73,0,0,0
+West,Seedling Starter Trays,Online Channel,42,42,53,94,108,90,115,27,74,121,105,89
+West,Compost Bins,YardMart,103,31,62,25,54,55,73,66,74,43,51,76
+West,Raised Bed Kits,YardMart,104,72,143,70,47,89,48,64,75,37,108,116
+West,Drip Irrigation Kits,All Other US,77,58,60,60,77,59,73,74,75,63,45,74
+West,Cedar Planter Boxes,JC Penny,100,84,74,90,73,75,83,61,76,76,45,38
+West,Mulch Bags,JC Penny,166,182,48,176,159,133,164,124,77,145,151,146
+West,Patio Sun Shades,Select Seeds,119,103,74,98,76,120,107,76,78,112,128,44
+West,Mulch Bags,All Other US,32,60,38,74,38,66,39,62,80,38,82,89
+East,Hedge Trimmers,House Store,80,49,39,47,99,57,60,69,80,64,104,62
+West,PVC Greenhouses,Select Seeds,158,204,132,118,114,179,159,108,80,58,97,49
+West,Compost Bins,All Other US,81,51,113,79,62,109,84,50,84,114,88,104
+East,Seed Spreaders,Home Hardware CA,0,0,0,0,0,0,0,4,87,81,62,53
+West,Woven Garden Baskets,GardenGalore,87,65,40,104,61,64,130,123,87,78,74,48
+West,Garden Fencing,Woles,0,0,0,0,0,0,0,58,90,71,59,51
+East,Seed Spreaders,Woles,0,1,0,0,2,0,0,15,92,37,167,538
+West,Wood Garden Edging,GardenGalore,91,75,82,49,72,34,45,69,103,79,65,48
+West,Drip Irrigation Kits,House Store,58,41,78,46,25,39,44,125,103,108,46,73
+East,Mulch Bags,House Store,168,73,108,129,174,177,124,139,106,90,124,79
+West,PVC Greenhouses,GardenGalore,110,77,93,90,113,61,120,104,108,82,101,115
+West,Seed Spreaders,JC Penny,0,0,0,0,0,0,0,35,109,79,109,76
+East,Hedge Trimmers,3D Interior CA,96,69,73,61,61,110,51,133,113,126,103,126
+West,Cedar Planter Boxes,Select Seeds,146,69,171,185,151,187,173,86,116,107,88,105
+West,Mulch Bags,Online Channel,127,108,210,176,96,61,72,106,122,151,189,168
+West,Seedling Starter Trays,JC Penny,89,80,79,116,71,91,114,66,123,86,60,100
+East,Gas Mowers,Woles,131,12,771,116,154,85,69,183,123,48,256,509
+East,Mulch Bags,All Other CA,25,10,28,11,15,16,33,97,127,38,69,30
+West,Mulch Bags,YardMart,149,115,121,125,112,81,131,55,134,108,98,160
+West,PVC Greenhouses,Seeds Online,157,156,78,89,149,118,197,120,141,85,125,147
+West,Drip Irrigation Kits,Seeds Online,258,210,103,234,142,79,142,167,142,92,177,179
+West,Raised Bed Kits,Seeds Online,251,238,132,268,236,144,142,123,153,130,153,193
+West,Raised Bed Kits,All Other US,53,36,72,91,103,80,138,147,159,298,313,316
+East,Seed Spreaders,All Other CA,44,3,14,74,32,6,2,19,164,101,208,215
+West,Seed Spreaders,Gardenster,215,170,189,208,208,158,152,184,171,125,197,168
+West,PVC Greenhouses,Gardenster,276,255,238,196,151,204,118,210,173,143,168,117
+West,Mulch Bags,Select Seeds,260,252,244,245,265,429,553,215,176,99,173,123
+East,Gas Mowers,All Other CA,76,56,58,53,93,70,99,117,186,102,830,152
+West,Garden Statues,House Store,121,138,165,102,81,106,179,142,194,196,194,178
+West,Compost Bins,Seeds Online,356,232,282,290,206,143,297,202,194,169,223,267
+West,Seed Spreaders,GardenGalore,70,104,255,151,104,101,119,197,198,233,348,338
+West,PVC Greenhouses,Online Channel,178,148,200,230,223,127,169,128,200,165,101,139
+West,Seed Spreaders,YardMart,0,0,0,0,0,0,0,43,202,102,183,348
+West,Seed Spreaders,All Other US,283,167,253,254,233,262,228,323,212,113,6,0
+East,PVC Greenhouses,3D Interior CA,229,201,148,226,194,187,174,149,214,159,195,242
+West,Metal Wheelbarrows,Select Seeds,346,267,264,240,178,204,330,338,229,166,171,135
+West,Cedar Planter Boxes,House Store,252,79,319,342,362,215,208,254,232,345,236,298
+West,Metal Wheelbarrows,All Other US,240,206,138,130,324,213,83,435,236,216,146,296
+West,Seed Spreaders,All Other US,2,5,5,6,4,3,13,55,247,209,298,379
+West,Metal Wheelbarrows,House Store,227,130,321,178,236,300,270,391,248,361,348,153
+West,Mulch Bags,YardMart,340,477,181,278,136,137,287,268,254,178,243,208
+West,Metal Wheelbarrows,Woles,214,170,108,98,109,77,157,192,266,149,190,112
+West,Compost Bins,House Store,90,91,174,118,151,169,286,330,269,253,332,299
+East,Wood Garden Edging,Select Seeds,403,323,300,191,240,234,246,282,271,170,255,221
+East,Seed Spreaders,House Store,70,93,127,75,55,69,94,208,278,335,435,263
+West,Gas Mowers,JC Penny,508,290,289,346,259,346,546,270,283,239,222,237
+West,Metal Wheelbarrows,Gardenster,229,197,186,187,144,167,161,228,285,183,189,157
+West,Mulch Bags,All Other US,276,237,283,225,298,233,246,201,288,238,255,255
+West,Raised Bed Kits,House Store,211,223,212,176,235,227,250,386,295,324,246,331
+West,Garden Statues,Seeds Online,503,514,413,408,427,265,414,389,297,254,287,337
+West,Woven Garden Baskets,Gardenster,111,204,167,99,151,166,270,218,323,241,279,213
+West,Gas Mowers,YardMart,464,153,313,199,187,294,230,219,328,196,296,394
+East,Mulch Bags,3D Interior CA,300,220,245,141,271,340,235,340,344,224,420,410
+West,Wood Garden Edging,Gardenster,313,424,625,346,358,428,346,377,348,392,291,257
+West,Seed Spreaders,Walk-In Customer,25,0,0,18,0,100,0,123,356,163,2132,345
+East,Mulch Bags,House Store,471,285,418,334,531,420,515,378,356,329,350,354
+West,Garden Statues,House Store,282,341,383,302,365,381,395,349,362,371,318,598
+West,Drip Irrigation Kits,House Store,323,409,330,353,351,304,352,409,374,447,387,578
+West,Seedling Starter Trays,House Store,147,303,878,416,280,345,390,496,383,532,641,602
+West,Hedge Trimmers,House Store,231,141,425,437,374,291,274,369,391,460,368,305
+West,Drip Irrigation Kits,Woles,93,218,75,123,278,231,260,346,440,245,220,386
+West,PVC Greenhouses,Woles,190,187,166,280,322,427,363,323,455,395,449,410
+West,Cedar Planter Boxes,House Store,372,177,374,591,533,214,301,380,458,533,437,455
+West,Garden Statues,Woles,235,221,137,238,209,219,298,311,460,337,337,382
+West,Woven Garden Baskets,Select Seeds,580,480,613,631,592,779,904,468,460,414,424,445
+East,Mulch Bags,3D Interior CA,531,280,470,281,314,473,263,287,520,406,391,386
+West,Gas Mowers,Online Channel,507,382,476,442,588,475,677,702,583,843,825,954
+West,PVC Greenhouses,Woles,644,701,505,448,475,426,555,443,604,480,495,426
+West,Wood Garden Edging,Select Seeds,656,672,555,484,435,561,1124,530,606,496,526,552
+East,Gas Mowers,House Store,753,494,463,616,693,647,578,669,607,554,696,530
+West,Hedge Trimmers,Woles,328,437,301,293,327,364,549,604,714,457,509,450
+West,Garden Statues,Woles,895,991,459,593,478,434,552,600,726,417,556,358
+West,Seed Spreaders,Select Seeds,587,976,488,389,269,140,280,245,741,684,783,561
+West,Drip Irrigation Kits,Woles,920,793,310,459,653,438,579,543,754,437,484,394
+West,Metal Wheelbarrows,Seeds Online,1016,850,702,742,583,547,624,577,785,619,665,738
+West,Seedling Starter Trays,Seeds Online,678,758,803,885,886,877,956,619,788,575,446,728
+West,Cedar Planter Boxes,Woles,650,510,267,277,277,299,676,665,838,433,548,387
+West,Mulch Bags,House Store,591,367,1084,959,966,688,690,972,844,1237,668,979
+West,Compost Bins,House Store,475,400,654,427,608,475,639,850,872,922,666,1025
+West,Metal Wheelbarrows,Woles,1152,1031,565,592,585,449,697,666,878,611,968,419
+West,Hedge Trimmers,Seeds Online,856,783,675,763,789,459,647,501,909,535,679,686
+West,Seed Spreaders,Seeds Online,42,83,51,36,43,79,58,511,955,982,1441,1654
+West,Metal Wheelbarrows,House Store,525,331,625,719,644,568,565,736,961,853,688,564
+West,Compost Bins,Woles,441,487,335,422,551,549,671,720,976,517,700,590
+West,Gas Mowers,All Other US,979,848,1058,1071,1003,1003,930,835,976,907,885,1081
+West,Cedar Planter Boxes,Seeds Online,1279,1236,969,910,907,470,811,622,996,648,763,929
+West,Seed Spreaders,House Store,103,80,61,67,79,128,68,555,1059,1213,1267,1693
+West,Mulch Bags,GardenGalore,839,740,532,533,642,656,1152,761,1082,705,857,661
+West,Hedge Trimmers,House Store,801,682,1181,1135,1053,901,787,971,1122,1315,1270,1055
+West,Seedling Starter Trays,Woles,711,848,395,586,632,997,976,1123,1164,948,1333,956
+West,Cedar Planter Boxes,Woles,1515,1590,625,707,584,556,1149,923,1188,737,812,571
+East,Mulch Bags,Select Seeds,1178,1414,1114,971,1078,981,1128,969,1192,860,994,913
+West,Gas Mowers,GardenGalore,840,812,1001,961,930,1270,1169,1138,1218,1186,1440,1533
+West,Seedling Starter Trays,All Other US,1051,950,1217,1168,1217,1300,1194,1042,1221,1108,1079,1277
+West,Seedling Starter Trays,House Store,621,746,1883,1094,963,1012,1229,1160,1260,1473,1194,1529
+East,Gas Mowers,3D Interior CA,1094,871,1028,1015,1080,1302,1238,1386,1293,1186,1288,1776
+West,Raised Bed Kits,Woles,447,813,168,574,1086,813,1095,1087,1332,835,997,1062
+West,Compost Bins,Woles,1546,1315,790,978,889,820,1068,1310,1355,720,908,763
+West,Hedge Trimmers,Woles,1856,1869,1032,1005,964,906,1510,1385,1355,975,927,852
+West,Raised Bed Kits,House Store,963,1302,1580,1220,1281,1316,1433,1553,1449,1556,1445,1963
+West,Mulch Bags,Seeds Online,1460,1501,1245,1259,1467,1350,1383,1148,1549,1344,1502,1974
+West,Mulch Bags,Gardenster,2058,1945,1964,1617,1385,1325,1531,1585,1707,1402,1531,1263
+West,Mulch Bags,Seeds Online,1814,1392,1522,1105,1339,1241,2188,1445,2012,1576,1634,2355
+West,Mulch Bags,House Store,1812,1358,3092,2001,2290,2240,1914,2470,2134,2075,1579,1904
+West,Mulch Bags,House Store,1828,1026,2711,2543,2524,1671,1993,2144,2213,2702,1905,2416
+West,Seedling Starter Trays,Woles,4220,3522,2037,1788,1845,2224,2489,2202,2402,1649,2140,1898
+West,Raised Bed Kits,Woles,2799,3408,1423,1576,2375,1989,2126,1905,2469,1313,1812,1606
+West,Gas Mowers,House Store,1028,1548,3414,1568,1323,1615,1834,2536,2582,3116,2886,2940
+West,Mulch Bags,Woles,1262,1821,932,996,1190,1010,2177,2630,3057,1669,2370,1549
+West,Seed Spreaders,House Store,117,45,181,127,95,70,38,1715,3066,3459,2980,4009
+West,Mulch Bags,Select Seeds,3832,4262,4240,3845,3586,5384,7615,3658,3170,3312,4273,3387
+West,Mulch Bags,House Store,1602,1441,3812,2980,3524,3228,3041,3898,3174,3759,2667,3157
+West,Gas Mowers,Gardenster,3487,4052,3545,2868,2933,2660,3055,3007,3292,3147,3893,3972
+West,Seed Spreaders,Woles,231,172,326,170,180,247,219,1987,3550,2293,2711,2451
+West,Mulch Bags,Woles,6634,7151,2942,2392,2421,1907,4654,4080,4640,2927,2970,2576
+East,Gas Mowers,Select Seeds,4763,5244,3986,3270,4376,4680,4948,4296,4980,3712,4651,4303
+West,Gas Mowers,Seeds Online,7642,10028,7733,7514,7926,2979,4910,3818,5558,3654,3576,4816
+West,Seed Spreaders,Woles,516,436,630,411,572,464,414,3484,5855,3630,3981,3966
+West,Gas Mowers,House Store,3397,3682,9197,4739,3936,3902,4232,4970,6261,6664,6216,6665
+West,Gas Mowers,Woles,5302,4892,3281,3736,4598,5933,6210,5952,7380,5230,6619,5802
+West,Mulch Bags,Woles,7893,6481,4254,3670,5336,5004,7296,7211,7753,6081,6896,5926
+West,Mulch Bags,Woles,22477,14474,9707,8487,8805,9092,10586,9708,11100,9638,9235,7108
+West,Gas Mowers,Woles,18496,14302,8536,9987,8956,9913,10366,11178,11735,8192,9472,8039
+West,Gas Mowers,Select Seeds,26361,28534,26555,27276,24709,27508,39202,24070,27323,24024,24484,19813

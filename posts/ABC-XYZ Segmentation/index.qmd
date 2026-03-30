@@ -1,0 +1,516 @@
+---
+title: "Sorting Demand Signals"
+subtitle: "Using ABC-XYZ Segmentation to Improve Forecasting Decisions"
+author: Richard Maestas
+date: 12/1/2025
+format: html
+editor: visual
+categories: [code, analysis, "S&OP", forecasting]
+image: "abc_xyz.png"
+---
+
+Align forecasting effort with what matters most
+
+## Summary
+
+ABC-XYZ segmentation is one of the most practical ways to align forecasting methods with actual demand behavior. Rather than applying a single model across all products, this approach segments items based on two key dimensions:
+
+-   **Volume contribution (ABC)** --- how important an item is to the business
+
+-   **Demand variability (XYZ)** --- how predictable that item is over time
+
+In practice, this segmentation becomes a foundation for forecast model selection, planner prioritization, and S&OP decision-making.
+
+In this example, we walk through a simplified, real-world approach using a gardening equipment dataset. The goal is not to build a complex model, but to demonstrate how planners can quickly classify demand and use that classification to drive better forecasting outcomes.
+
+## Data Setup & Preparation
+
+To keep the example simple and broadly applicable, the dataset is structured at a common planning level:
+
+-   **Territory**
+
+-   **Product Line**
+
+-   **Customer**
+
+-   **Month (period)**
+
+-   **Units Sold (qty)**
+
+This reflects a typical demand planning grain used in many organizations.
+
+After loading the data, the first step is straightforward cleanup:
+
+-   Standardize column names
+
+-   Ensure dates are properly formatted
+
+-   Confirm quantities are numeric
+
+The focus here is not data engineering, but creating a clean dataset that supports repeatable analysis.
+
+```{r, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(scales)
+#library(openxlsx)
+library(janitor)
+library(kableExtra)
+```
+
+```{r, include=FALSE}
+data <- read.csv("abc_xyz_history.csv", stringsAsFactors = FALSE)
+```
+
+```{r, include=FALSE}
+#create data summary for copilot
+kable(head(data, 4))
+```
+
+```{r, echo=FALSE}
+#create data summary for copilot
+glimpse_data <- head(data)
+
+
+
+# Pivot columns starting with "X" (e.g., X23.Jan)
+history_df <- data %>%
+  pivot_longer(
+    cols = starts_with("X"),       # Select all columns starting with X
+    names_to = "period",
+    values_to = "qty"
+  ) %>%
+  mutate(
+    # Convert 'X23.Jan' → '2023-Jan'
+    period = str_replace(period, "^X(\\d{2})\\.(\\w{3})$", "20\\1-\\2"),
+    # Parse as date
+    period = parse_date(period, format = "%Y-%b")
+  )
+
+#format period column to date
+history_df$period <- as_date(history_df$period)
+#format qty column to number
+history_df$qty <- as.integer(history_df$qty) #creates NAs (double check raw data)
+
+#relabel columns
+history_df <- history_df %>%
+  clean_names()
+
+
+#preview for copilot
+glimpse_data <- head(history_df)
+kable(glimpse_data)
+
+```
+
+## **Step 1: Understanding Volume and Variability**
+
+The foundation of ABC-XYZ segmentation is built on two simple metrics:
+
+-   **Percent of Total Volume**
+
+-   **Coefficient of Variation (CoV)**
+
+Percent of total helps answer:
+
+> \"Which items actually drive the business?\"
+
+CoV helps answer:
+
+> \"How predictable is demand for each item?\"
+
+This is where most of the value comes from --- not the classification itself, but the visibility into demand behavior.
+
+```{r, echo=FALSE}
+
+#US
+#Compute overall total first
+overall_total <- sum(history_df$qty, na.rm = TRUE)
+
+history_df <- history_df %>%
+  group_by(territory, customer, product_line) %>%
+  summarise(
+    tot_qty = sum(qty, na.rm = TRUE),
+    cov = ifelse(mean(qty, na.rm = TRUE) == 0, 0,
+                 sd(qty, na.rm = TRUE) / mean(qty, na.rm = TRUE)),  # Replace NA with 0
+    .groups = "drop"
+  ) %>%
+  mutate(
+    pct_tot = (tot_qty / overall_total),  # Use global total
+    pct_tot = round(pct_tot, 3),
+    cov = round(cov, 3)
+  ) %>%
+  arrange(desc(pct_tot))
+
+#print
+kable(head(history_df))
+
+  
+```
+
+### Visualization
+
+Plotting CoV against percent of total volume creates a simple but powerful view:
+
+-   High volume + low variability → stable, high-impact items
+
+-   Low volume + high variability → unpredictable, low-impact items
+
+-   Everything else falls somewhere in between
+
+This visualization is often where planners start to recognize:
+
+-   which items can be automated
+
+-   which require attention
+
+-   where forecasting errors are most likely to occur
+
+```{r, echo=FALSE, message=FALSE}
+
+ggplot(history_df, aes(x = cov, y = pct_tot)) +
+  geom_point() +
+  scale_y_continuous(
+    name = "% of Total Volume",
+    labels = percent_format(accuracy = 1)  # Format as percent
+  ) +
+  scale_x_continuous(name = "Coefficient of Variation (CoV)") +
+  labs(
+    title = "CoV vs % of Total Volume",
+    size = "Total Qty"
+  ) +
+  theme_minimal()
+
+```
+
+::: {.callout-note appearance="minimal"}
+## Many organizations have a long tail of items with zero or intermittent demand. While these items contribute little to total volume, they can distort CoV and lead to misleading XYZ classifications if not handled appropriately.
+:::
+
+## Step 2: ABC-XYZ Segmentation 
+
+Using standard thresholds:
+
+-   **ABC (Volume Contribution)**
+
+    -   A: Top \~80% of volume
+
+    -   B: Next \~15%
+
+    -   C: Remaining \~5%
+
+-   **XYZ (Variability)**
+
+    -   X: Low variability
+
+    -   Y: Moderate variability
+
+    -   Z: High variability
+
+Each combination (e.g., AX, BY, CZ) represents a different type of demand pattern.
+
+This creates a simple framework:
+
+| Segment | Interpretation                                                      |
+|---------|---------------------------------------------------------------------|
+| AX      | High volume, stable --- ideal for automation                        |
+| BY      | Moderate importance, some variability                               |
+| CZ      | Low volume, highly unpredictable --- often not worth heavy modeling |
+
+At this stage, the goal is not perfection --- it\'s directional clarity.
+
+```{r, echo=FALSE}
+
+#US
+segmented_df <- history_df %>% 
+  arrange(desc(pct_tot)) %>%
+  mutate(
+    cum_pct = cumsum(pct_tot),
+    abc_class = case_when(
+      pct_tot == 0 ~ "C",      # Zero contributors → C
+      cum_pct <= .80 ~ "A",
+      cum_pct <= .95 ~ "B",
+      TRUE ~ "C"
+    ),
+    xyz_class = case_when(
+      cov <= 0.25 ~ "X",      # Low variability
+      cov <= 0.5 ~ "Y",      # Medium variability
+      TRUE ~ "Z"              # High variability
+    ),
+    ABC_XYZ = paste(abc_class, xyz_class)
+  )
+
+#print
+kable(head(segmented_df))
+```
+
+### Plot ABC-XYZ Assignments
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+#plot basic segmentation
+p1 <- 
+ggplot(segmented_df, aes(x = cov, y = pct_tot)) +
+  geom_point(aes(color = ABC_XYZ), alpha = 0.7) +
+  scale_y_log10(
+    name = "% of Total Volume",
+    labels = percent_format(accuracy = 1)  # Format as percent
+  ) +
+  scale_x_log10(name = "Coefficient of Variation (CoV)") +
+  labs(
+    title = "CoV vs % of Total Volume",
+    subtitle = "Assigned using percentile segmentation",
+    caption = "*X and Y axis scaled log_10 to show detail",
+    size = "Total Qty",
+    color = "ABC-XYZ"
+  ) +
+  theme_minimal()
+
+p1
+```
+
+## Step 3: Improving the Variability Segmentation
+
+One of the limitations of traditional XYZ segmentation is the use of fixed thresholds.
+
+In real datasets (especially retail or seasonal categories like gardening equipment), demand variability is rarely evenly distributed.
+
+To address this, we test a quantile-based approach, where:
+
+-   thresholds are derived from the actual data distribution
+
+-   segmentation adapts to the business context
+
+This results in:
+
+-   more balanced classification
+
+-   better separation between stable and volatile items
+
+-   improved alignment with real demand patterns
+
+```{r, echo=FALSE, warning=FALSE}
+
+#replace negative cov values
+segmented_df$cov[segmented_df$cov < 0] <- 0
+
+# Compute quantiles
+q25 <- quantile(segmented_df$cov, 0.25, na.rm = TRUE)
+q75 <- quantile(segmented_df$cov, 0.75, na.rm = TRUE)
+
+# Create histogram with quantile lines
+# Compute max count for dynamic positioning
+max_count <- max(hist(segmented_df$cov, plot = FALSE)$counts)
+
+
+ggplot(segmented_df, aes(x = cov)) +
+  geom_histogram(binwidth = 0.1, fill = "steelblue", color = "white", alpha = 0.7) +
+  scale_y_log10() +
+  geom_vline(xintercept = q25, color = "dark blue", linetype = "dashed", size = 1) +
+  geom_vline(xintercept = q75, color = "dark blue", linetype = "dashed", size = 1) +
+  annotate("text", x = q25, y = max_count / 2, label = paste0("Q25: ", round(q25, 3)),
+           color = "dark blue", angle = 90, vjust = -0.5) +
+  annotate("text", x = q75, y = max_count / 2, label = paste0("Q75: ", round(q75, 3)),
+           color = "dark blue", angle = 90, vjust = -0.5) +
+  labs(
+    title = "CoV Histogram with Quantile Thresholds",
+    x = "Coefficient of Variation (CoV)",
+    y = "Frequency"
+  ) +
+  theme_minimal()
+
+```
+
+::: {.callout-note appearance="minimal"}
+## Most of the zero values of CoV do not have any volume. These need to be treated a little differently than percent total used in the ABC segmentation.
+:::
+
+## **Step 4:** Handling Edge Cases 
+
+Two practical adjustments improve the segmentation:
+
+1.  **Zero or near-zero demand**
+
+    -   These items can distort variability calculations
+
+    -   Assigning them to \"X\" avoids unnecessary noise
+
+2.  **Negative or undefined CoV**
+
+    -   Reset to zero for stability
+
+These small decisions matter --- they make the segmentation usable in real planning environments.
+
+```{r, echo=FALSE, warning=FALSE}
+
+# Replace negative cov values with 0
+segmented_df$cov[segmented_df$cov < 0] <- 0
+
+# Exclude zeros for quantile calculation
+cov_nonzero <- segmented_df$cov[segmented_df$cov > 0]
+
+# Compute quantiles without zeros
+q25 <- quantile(cov_nonzero, 0.25, na.rm = TRUE)
+q75 <- quantile(cov_nonzero, 0.75, na.rm = TRUE)
+
+
+# Compute max count dynamically for annotation
+max_count <- max(hist(segmented_df$cov[segmented_df$cov > 0], plot = FALSE)$counts)
+
+ggplot(segmented_df %>% filter(cov > 0), aes(x = cov)) +
+  geom_histogram(binwidth = 0.1, fill = "steelblue", color = "white", alpha = 0.7) +
+  geom_vline(xintercept = q25, color = "dark blue", linetype = "dashed", size = 1) +
+  geom_vline(xintercept = q75, color = "dark blue", linetype = "dashed", size = 1) +
+  annotate("text", x = q25, y = max_count / 4, label = paste0("Q25: ", round(q25, 3)),
+           color = "dark blue", angle = 90, vjust = -0.5) +
+  annotate("text", x = q75, y = max_count / 4, label = paste0("Q75: ", round(q75, 3)),
+           color = "dark blue", angle = 90, vjust = -0.5) +
+  labs(
+    title = "CoV Histogram with Quantile Thresholds",
+    subtitle = "Negative and 0 values ignored",
+    x = "Coefficient of Variation (CoV)",
+    y = "Frequency"
+  ) +
+  theme_minimal()
+
+
+```
+
+```{r, include=FALSE}
+#Quantile approach
+#Replacing negative CoV values with "0"
+
+#US
+segmented_df_1 <- history_df %>% 
+  arrange(desc(pct_tot)) %>%
+  mutate(
+    cum_pct = cumsum(pct_tot),
+    abc_class = case_when(
+      pct_tot == 0 ~ "C",      # Zero contributors → C
+      cum_pct <= .80 ~ "A",
+      cum_pct <= .95 ~ "B",
+      TRUE ~ "C"
+    ),
+    xyz_class = case_when(
+      cov <= 0 ~ "X",      # Low variability
+      cov <= 0.393 ~ "Y",      # Medium variability
+      TRUE ~ "Z"              # High variability
+    )
+  )
+
+```
+
+```{r, echo=FALSE}
+#Quantile approach
+#Ignoring "0" values
+
+#US
+segmented_df_2 <- history_df %>% 
+  arrange(desc(pct_tot)) %>%
+  mutate(
+    cum_pct = cumsum(pct_tot),
+    abc_class = case_when(
+      pct_tot == 0 ~ "C",      # Zero contributors → C
+      cum_pct <= .80 ~ "A",
+      cum_pct <= .95 ~ "B",
+      TRUE ~ "C"
+    ),
+    xyz_class = case_when(
+      cov <= 0.37 ~ "X",      # Low variability
+      cov <= 1.879 ~ "Y",      # Medium variability
+      TRUE ~ "Z"              # High variability
+    ),
+    ABC_XYZ = paste(abc_class, xyz_class)
+  )
+
+```
+
+## Comparing Approaches
+
+Here are the thresholds for segmentation for each method respectively:
+
+```{r, echo=FALSE}
+
+# Create the thresholds data frame
+thresholds <- data.frame(
+  method = c("percentile", "quantile_1", "quantile_2"),
+  a = c("80%", "80%", "80%"),
+  b = c("15%", "15%", "15%"),
+  c = c("5%", "5%", "5%"),
+  x = c("0.25", "0", ".37"),
+  y = c("0.5", ".393", "1.879"),
+  z = c(">0.50", ">.393", ">1.879"),
+  stringsAsFactors = FALSE
+)
+
+# View the data frame
+kable(thresholds, format = "html", align = "c", caption = "ABC & XYZ Classification Thresholds") %>%
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+    full_width = FALSE,
+    position = "center"
+  ) %>%
+  column_spec(1, bold = TRUE, color = "white", background = "#4CAF50") %>%  # Highlight 'method' column
+  column_spec(2:7, width = "8em") %>%  # Set column widths
+  row_spec(0, bold = TRUE, background = "#2F4F4F", color = "white")  # Style header row
+
+
+```
+
+## Recommendation
+
+In this example, the quantile-based approach provides a more realistic segmentation than fixed thresholds.
+
+It adapts to:
+
+-   skewed demand distributions
+
+-   uneven product portfolios
+
+-   real-world variability patterns
+
+For most organizations, this approach is a strong starting point when building:
+
+-   forecast model selection logic
+
+-   planner workflows
+
+-   segmentation-driven reporting
+
+### Plot Updated Classifications
+
+The plot below illustrates the updated ABC-XYZ combinations under this method.
+
+```{r, echo=FALSE, warning = FALSE, message=FALSE}
+p2 <- ggplot(segmented_df_2, aes(x = cov, y = pct_tot, color = ABC_XYZ)) +
+  geom_point() +
+    scale_y_log10(
+    name = "% of Total Volume",
+    labels = percent_format(accuracy = 1)  # Format as percent
+  ) +
+  scale_x_log10(name = "Coefficient of Variation (CoV)") +
+  labs(
+    title = "CoV vs % of Total Volume",
+    subtitle = "Quantile approach for CoV segmentation",
+    caption = "*X and Y axis scaled log_10 to show detail",
+    size = "Total Qty",
+    color = "ABC-XYZ"
+  ) +
+  theme_minimal()
+p2
+```
+
+## Conclusion
+
+ABC-XYZ segmentation is often introduced as a classification exercise, but its real value lies in how it shapes decision-making.
+
+By combining volume importance with demand variability, planners gain a clear view of where to:
+
+-   automate forecasting
+
+-   apply more advanced models
+
+-   focus human judgment
+
+In this example, we kept the approach intentionally simple --- but the same framework scales across more complex environments and planning tools.
+
+For organizations looking to improve forecast accuracy and efficiency, ABC-XYZ segmentation is not just a technique --- it is a foundation for building a more structured, data-driven planning process.
